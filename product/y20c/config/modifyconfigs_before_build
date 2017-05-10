@@ -1,0 +1,16 @@
+openfile:custom.conf
+
+endfile:custom.conf
+
+
+openfile:ProjectConfig.mk
+
+#for y20c BreathLed
+YYD_BREATHLED_SUPPORT = yes
+
+#for y20c AR game
+YYD_AR_SUPPORT = yes
+
+#for video no shengwang yes huanxin
+VIDEO_TYPE=shengwang
+endfile:ProjectConfig.mk

@@ -1,0 +1,18 @@
+openfile:custom.conf
+
+endfile:custom.conf
+
+
+openfile:ProjectConfig.mk
+
+#for y20c BreathLed, no support for y50bpro
+YYD_BREATHLED_SUPPORT = no
+
+#for y50bpro Infrared control
+YYD_INFRARED_SUPPORT = yes
+
+YYD_5MIC_SUPPORT = yes
+YYD_FACE_RECOGNITION_SUPPORT = yes
+#for video no shengwang yes huanxin
+VIDEO_TYPE = no
+endfile:ProjectConfig.mk

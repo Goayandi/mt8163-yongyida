@@ -1,0 +1,12 @@
+openfile:custom.conf
+dm.Model = A8
+bluetooth.HostName = A8
+fmtransmitter.RDSValue = A8
+wlan.SSID = A8
+endfile:custom.conf
+
+
+openfile:ProjectConfig.mk
+VIDEO_TYPE=webrtc
+YYD_5MIC_SUPPORT = yes
+endfile:ProjectConfig.mk

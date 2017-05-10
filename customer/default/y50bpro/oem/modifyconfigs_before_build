@@ -1,0 +1,11 @@
+openfile:custom.conf
+dm.Model = Y50
+bluetooth.HostName = Yong_BT
+fmtransmitter.RDSValue = Yongyida
+wlan.SSID = Yong_AP
+endfile:custom.conf
+
+
+openfile:ProjectConfig.mk
+
+endfile:ProjectConfig.mk
