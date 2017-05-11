@@ -1,0 +1,13 @@
+openfile:custom.conf
+dm.Model = ZK20
+bluetooth.HostName = ZK20
+fmtransmitter.RDSValue = ZK20
+wlan.SSID = ZK20
+endfile:custom.conf
+
+
+openfile:ProjectConfig.mk
+VIDEO_TYPE=webrtc
+YYD_5MIC_SUPPORT = yes
+WAKE_UP_NAME=bao
+endfile:ProjectConfig.mk
