@@ -163,9 +163,9 @@
         <item>Game</item>
         <item>Tools</item>
         <item>APPs</item>
-        <!-- <item>Video Meeting</item> -->
+        <item>Video Meeting</item>
         <item>Files</item>
-        <item>Album</item>
+        <!-- <item>Album</item>  -->
         <item>AR</item>
         <!-- <item>Files</item> -->
     </string-array>
@@ -181,9 +181,9 @@
         <item>@drawable/menu_game</item>
         <item>@drawable/menu_tools</item>
         <item>@drawable/menu_app</item>
-        <!-- <item>@drawable/menu_video</item> -->
+        <item>@drawable/menu_video</item>
         <item>@drawable/menu_doc</item>
-        <item>@drawable/menu_photos</item>
+        <!-- <item>@drawable/menu_photos</item> -->
         <item>@drawable/menu_ar</item>
         <!-- <item>@drawable/menu_doc</item> -->
     </string-array>
@@ -199,9 +199,9 @@
         <item>@drawable/menu_game_selected</item>
         <item>@drawable/menu_tools_selected</item>
         <item>@drawable/menu_app_selected</item>
-        <!-- <item>@drawable/menu_video_selected</item> -->
+        <item>@drawable/menu_video_selected</item>
         <item>@drawable/menu_doc_selected</item>
-        <item>@drawable/menu_photos_selected</item>
+        <!-- <item>@drawable/menu_photos_selected</item> -->
         <item>@drawable/menu_ar_selected</item>
         <!-- <item>@drawable/menu_doc_selected</item> -->
     </string-array>
@@ -217,9 +217,9 @@
         <item>"com.yongyida.robot.game"</item>
         <item>"com.yongyida.robot.tools"</item>
         <item>"com.yongyida.robot.apps"</item>
-        <!-- <item>"com.yongyida.robot.video"</item> -->
+        <item>"com.yongyida.robot.video"</item>
         <item>"com.yongyida.robot.resourcemanager"</item>
-        <item>"com.yongyida.robot.photos"</item>
+        <!-- <item>"com.yongyida.robot.photos"</item> -->
         <item>"com.fancyar.xiaoyongar"</item>
         <!-- <item>"com.yongyida.robot"</item> -->
     </string-array>
@@ -240,7 +240,7 @@
         <item>"com.android.calculator2"</item>
         <item>"com.example.fpga_load"</item>
         <!-- <item>"com.hpplay.happyplay.aw"</item> -->
-        <item>"com.yongyida.robot.video"</item>
+        <!-- <item>"com.yongyida.robot.video"</item> -->
     </string-array>
 
     <!-- **************************** y5obpro_dev的项目 **************************** -->

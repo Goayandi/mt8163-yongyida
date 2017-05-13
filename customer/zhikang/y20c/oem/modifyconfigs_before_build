@@ -9,5 +9,5 @@ endfile:custom.conf
 openfile:ProjectConfig.mk
 VIDEO_TYPE=webrtc
 YYD_5MIC_SUPPORT = yes
-WAKE_UP_NAME=bao
+WAKE_UP_NAME=xiaobao
 endfile:ProjectConfig.mk

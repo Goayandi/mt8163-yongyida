@@ -86,11 +86,6 @@ rm -rf out/target/common/obj/JAVA_LIBRARIES/libfacerecognizer*
 rm -rf out/target/common/obj/JAVA_LIBRARIES/libBreathLed*
 rm -rf out/target/common/obj/JAVA_LIBRARIES/launcherlib*
 
-#恢复默认的overlay和checkout device目录
-rm -rf $TARGET_DEVICE_DIR/overlay/  
-cd $TARGET_DEVICE_DIR/
-git checkout ./
-cd ../../../
 
 #checkout 第一帧logo
 #cd bootable/bootloader/lk/dev/logo/
@@ -228,6 +223,20 @@ echo "make otapackage ..."
 #**************************************************************************************************
 
 . yongyida/tools/copyimages.sh
+
+#**************************************************************************************************
+#还原编译产生的diff
+#恢复默认的overlay和checkout device目录
+rm -rf $TARGET_DEVICE_DIR/overlay/  
+cd device/
+git checkout ./
+cd ../
+
+cd kernel-3.18
+git checkout ./
+cd ../
+
+#**************************************************************************************************
 
 #**************************************************************************************************
 #删除编译时用到的全局变量

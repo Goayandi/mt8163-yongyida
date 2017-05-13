@@ -13,4 +13,7 @@ YYD_AR_SUPPORT = yes
 
 #for video no shengwang yes huanxin
 VIDEO_TYPE=shengwang
+
+#for  wakeup name
+WAKE_UP_NAME=xiaoyong
 endfile:ProjectConfig.mk
