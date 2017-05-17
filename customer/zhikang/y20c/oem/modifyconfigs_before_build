@@ -1,8 +1,8 @@
 openfile:custom.conf
-dm.Model = ZK20
-bluetooth.HostName = ZK20
-fmtransmitter.RDSValue = ZK20
-wlan.SSID = ZK20
+dm.Model = ZK20C
+bluetooth.HostName = ZK20C
+fmtransmitter.RDSValue = ZK20C
+wlan.SSID = ZK20C
 endfile:custom.conf
 
 

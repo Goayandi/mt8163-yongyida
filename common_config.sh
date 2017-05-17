@@ -87,13 +87,6 @@ rm -rf out/target/common/obj/JAVA_LIBRARIES/libBreathLed*
 rm -rf out/target/common/obj/JAVA_LIBRARIES/launcherlib*
 
 
-#checkout 第一帧logo
-#cd bootable/bootloader/lk/dev/logo/
-#git checkout ./
-#cd ../../../../../
-#rm -rf $OUT/obj/EXECUTABLES/efilinux-${TARGET_BUILD_VARIANT}_intermediates
-
-
 
 #删除设备目标路径（TARGET_DEVICE_DIR）下的overrides.prop 和 product_overrides.prop
 if [ -e $TARGET_DEVICE_DIR/product_overrides.prop ]; then
@@ -152,20 +145,9 @@ fi
 
 #拷贝第一帧logo:实则为uboot和kernel的两帧logo	qxga-2048*1536, wxga-1280*800, xga-1024*768, hd720-720*1280
 if [ -e $CUSTOMIZATION_PATH/oem/bootlogo.bmp ]; then
-	cp -rf $CUSTOMIZATION_PATH/oem/bootlogo.bmp $MTK_LOGO_PATH/hd720/hd720_uboot.bmp
-	cp -rf $CUSTOMIZATION_PATH/oem/bootlogo.bmp $MTK_LOGO_PATH/hd720/hd720_low_battery.bmp
-	cp -rf $CUSTOMIZATION_PATH/oem/bootlogo.bmp $MTK_LOGO_PATH/hd720/hd720_kernel.bmp
-fi
-
-
-#**************************************************************************************************
-#copy YYDRobotVoiceMainService jar包和库文件
-if [ -e $CUSTOMIZATION_PATH/oem/Msc.jar ]; then
-	cp  -rf $CUSTOMIZATION_PATH/oem/Msc.jar packages/apps/YYDRobotVoiceMainService/y50bpro_dev/libs/
-fi
-
-if [ -e $CUSTOMIZATION_PATH/oem/libmsc.so ]; then
-	cp  -rf $CUSTOMIZATION_PATH/oem/libmsc.so packages/apps/YYDRobotVoiceMainService/y50bpro_dev/libs/armeabi/
+	cp -rf $CUSTOMIZATION_PATH/oem/bootlogo.bmp $MTK_LOGO_PATH/hd720nl/hd720nl_uboot.bmp
+	cp -rf $CUSTOMIZATION_PATH/oem/bootlogo.bmp $MTK_LOGO_PATH/hd720nl/hd720nl_low_battery.bmp
+	cp -rf $CUSTOMIZATION_PATH/oem/bootlogo.bmp $MTK_LOGO_PATH/hd720nl/hd720nl_kernel.bmp
 fi
 
 
@@ -234,6 +216,10 @@ cd ../
 
 cd kernel-3.18
 git checkout ./
+cd ../
+
+cd vendor/
+git checkout .
 cd ../
 
 #**************************************************************************************************

@@ -3,7 +3,9 @@
 # If propertyies in this file does not exist in /system/build.prop, the 
 # properties will be added into /system/build.prop
 # Property format are key = value 
-ro.product.model=ZK20
+ro.product.model=ZK20C
 ro.yongyida.voice_locate=1
 ro.yongyida.smart_fall_prevent=1
 ro.yongyida.voice_wakeup_rate=1
+persist.yongyida.notification=false
+persist.yongyida.camera=false
