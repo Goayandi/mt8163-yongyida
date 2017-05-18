@@ -9,3 +9,4 @@ ro.yongyida.smart_fall_prevent=1
 ro.yongyida.voice_wakeup_rate=1
 persist.yongyida.notification=false
 persist.yongyida.camera=false
+persist.yongyida.photos=false
