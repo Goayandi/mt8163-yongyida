@@ -10,3 +10,5 @@ ro.yongyida.voice_wakeup_rate=1
 persist.yongyida.notification=false
 persist.yongyida.camera=false
 persist.yongyida.photos=false
+#master说话时，呼吸灯不闪
+persist.yongyida.speak_led=false

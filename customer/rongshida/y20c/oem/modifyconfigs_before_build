@@ -9,4 +9,5 @@ endfile:custom.conf
 openfile:ProjectConfig.mk
 VIDEO_TYPE=webrtc
 YYD_5MIC_SUPPORT = yes
+WAKE_UP_NAME=xiaoshuai
 endfile:ProjectConfig.mk
