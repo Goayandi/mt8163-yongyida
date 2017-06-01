@@ -122,12 +122,16 @@ fi
 
 
 #----------product_common_config.sh中处理----------------------------
-#如有特殊配置，拷贝机器型号配置文件anzhen4_mrd7_64_diffconfig，此配置和yongyida/product下对应型的anzhen4_mrd7_64_diffconfig
+#如有特殊配置，拷贝机器型号配置文件yyd8163_tb_m_defconfig，此配置和yongyida/product下对应型的yyd8163_tb_m_defconfig
 #共用的配置是一致的，比如摄像头、触摸屏等配置。此处添加不是多此一举，而是为了一些特殊需求另外添加并覆盖。
-#比如台电需求中的要求内存容量显示要足量，需要在内核中配置，一般客户不需要的就不用另外添加。
-#if [ -e $CUSTOMIZATION_PATH/oem/anzhen4_mrd7_64_diffconfig ]; then
-#	cp  -rf $CUSTOMIZATION_PATH/oem/anzhen4_mrd7_64_diffconfig $TARGET_DEVICE_DIR/
-#fi
+#比如荣事达所用tp与通用版不同，需要在内核中配置，一般客户不需要的就不用另外添加。
+if [ -e $CUSTOMIZATION_PATH/oem/yyd8163_tb_m_defconfig ]; then
+	cp  -rf $CUSTOMIZATION_PATH/oem/yyd8163_tb_m_defconfig kernel-3.18/arch/arm64/configs/
+fi
+
+if [ -e $CUSTOMIZATION_PATH/oem/yyd8163_tb_m_debug_defconfig ]; then
+	cp  -rf $CUSTOMIZATION_PATH/oem/yyd8163_tb_m_debug_defconfig kernel-3.18/arch/arm64/configs/
+fi
 #**************************************************************************************************
 
 
