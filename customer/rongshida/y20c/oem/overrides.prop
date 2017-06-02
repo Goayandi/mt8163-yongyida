@@ -7,3 +7,5 @@ ro.product.model=A8
 ro.yongyida.voice_locate=1
 ro.yongyida.smart_fall_prevent=1
 ro.yongyida.voice_wakeup_rate=1
+# 荣事达，使用讯飞音乐
+persist.music.usexiri=true
