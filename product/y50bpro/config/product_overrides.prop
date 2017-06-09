@@ -10,5 +10,6 @@ ro.yongyida.use_system_settings=1
 ro.yongyida.need_clean_background=1
 ro.yongyida.robot_raw_model=y50bpro_dev
 ro.yongyida.face_recognition=1
+ro.motor.version=8163_50
 
 
