@@ -11,7 +11,7 @@
         <!-- <item>Dialer</item> -->
         <item>Study</item>
         <item>Music</item>
-        <item>Education</item>
+        <item>Game</item>
         <item>Tools</item>
         <item>APPs</item>
         <item>Video Meeting</item>
@@ -71,8 +71,8 @@
         <!-- <item>"com.android.dialer"</item> -->
         <item>"com.yongyida.robot.study"</item>
         <item>"com.yongyida.robot.artmuseum"</item>
-        <!-- <item>"com.yongyida.robot.game"</item> -->
-		<item>"mxb.educationnet"</item>
+        <item>"com.yongyida.robot.game"</item>
+		<!-- <item>"mxb.educationnet"</item> -->
         <item>"com.yongyida.robot.tools"</item>
         <item>"com.yongyida.robot.apps"</item>
         <item>"com.yongyida.robot.video"</item>
