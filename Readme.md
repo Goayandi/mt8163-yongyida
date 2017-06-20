@@ -23,8 +23,7 @@
 				  
 ## 1、 机器型号配置：product_config.sh，此脚本必须配。
 			在客制化目录下放一个脚本命名为 product_config.sh ，此脚本导出全局变量 CUSTOMER_PRODUCT 来控制拷贝对应型号的	 
-		配置，编译完毕后会被释放。目前我们所有机器现在都是3G的，有些客户需求要求去掉3G模块，可在 product_config.sh 添加	 
-		export WIFI_ONLY="y" ，编译时会根据这个全局变量来判断是否编译3g相关的东西。	 
+		配置，编译完毕后会被释放。
 		
 		若apps源码修改太多，可用CUSTOMER_PRODUCT变量来控制具体编译的mk，如YYDRobotVoiceMainService	 
 '''		
@@ -109,108 +108,7 @@
 		
 ### 2、自定义和系统属性：
 		注：括号前带*的是系统自带属性，其他是自定义属性，这些属性都是在build.prop中。
-
-一、package/apps/  ：
-=========================			
-
-1、Settings:  
----------------------------			
-
-## (1) 关于平板电脑->型号 显示的字符串  
-### \packages\apps\Settings\src\com\android\settings\DeviceInfoSettings.java
-		ro.yongyida.modelnumber=Android 	 
-		此属性指定设置中 关于平板电脑->型号 显示的字符串，不赋值或者build.prop中没有此属性默认为Android。
 					
-## (2) 关于平板电脑->版本号 显示的字符串  
-### \packages\apps\Settings\src\com\android\settings\DeviceInfoSettings.java
-	    ro.yongyida.build_number_one=YOS_Y20B_V1R021	 
-		关于平板电脑->版本号 显示的字符串，其中ro.yongyida.build_number_one
-					
-## (3) 默认输入法（DatabaseHelper.java）
-		ro.product.defaultinputmethod=com.baidu.input/.ImeService  ，左边例子是默认百度输入法
-		如果要克制化定制的默认输入法，可以在设置中设置默认输入法然后查看数据库对应的值。
-		此属性是在SettingProvider第一次调用。
-					
-## (5) 日期和时间->使用24小时制（DatabaseHelper.java）
-		ro.yongyida.12_24_hour=12 当值为12时，使用12小时制，当值为24时使用24小时制，默认为12.
-		此属性是在SettingProvider设置并保存到数据库中。
-				
-## (7) wifi-direct 默认名称（DatabaseHelper.java）
-		ro.yongyida.wd_name=YYD
-		此属性用来命名wifi direct的默认名，不赋值wifiP2pServece会自动随机生成一个名称Android_****
-		此属性是在SettingProvider第一次调用。
-				
-## (8) 关于平板电脑-硬件信息 是否显示：
-### \packages\apps\Settings\src\com\android\settings\DeviceInfoSettings.java
-		custom.hardwareinfo
-		默认设置成显示,无需在buid.prop中添加custom.hardwareinfo
-		如果需要隐藏的话可以在build.prop中加上custom.hardwareinfo=no
-						
-					
-## (9) "关于平板电脑->系统更新“是否屏蔽
-### \packages\apps\Settings\src\com\android\settings\DeviceInfoSettings.java
-		ro.yongyida.hidesystemupdate
-		默认为false，不屏蔽，为true时屏蔽。
-						
-## (10) ”关于平板电脑->内核版本“ 是否不显示内核版本日期
-### \packages\apps\Settings\src\com\android\settings\DeviceInfoSettings.java
-		ro.yongyida.showkerneldate
-		默认为true,显示，为 false 不显示
-						
-## (11) 显示->字体大小（DatabaseHelper.java）
-		ro.yongyida.font_size 默认值为1.0，为普通，大为1.15，超大为1.3，小为0.85.
-		此属性是在SettingProvider设置并保存到数据库中。
-					
-## (12) 通知、闹钟、音乐等媒体音量大小，以0~100的百分比表示（DatabaseHelper.java）
-		ro.yongyida.volume_music  音乐、视频、游戏和其他媒体，比如赋值为70就是默认70%音量大小。
-		ro.yongyida.volume_ring   铃声音量。
-		ro.yongyida.volume_system 系统音量。
-		ro.yongyida.volume_alarm  闹钟音量。
-					
-## (13) 
-### \frameworks\base\media\java\com\mediatek\audioprofile\AudioProfileManager.java
-		ro.yongyida.ring_volume	0~15，默认铃声大小，不设置时为8
-		ro.yongyida.notify_volume 0~15，默认通知音大小，不设置时为8
-		ro.yongyida.alarm_volume 0~15，默认闹钟音大小，不设置时为8
-		ro.yongyida.def_vibration=1	打开“振动”，不设置时关闭
-		ro.yongyida.dialtouch_sound=1 打开“拨号按键音”，不设置时关闭
-		ro.yongyida.lscrren_sound=0	关闭“解锁音”，不设置时打开
-		ro.yongyida.touch_sound=1		打开“触摸提示音”，不设置时关闭
-		ro.yongyida.touch_haptic=1		打开“触摸时振动”，不设置时关闭
-					
-## (14)
-### \packages\apps\Settings\src\com\mediatek\audioprofile\Editprofile.java
-		ro.yongyida.vibrat_support=1 	支持“振动”的相关选项，不设置时关闭				
-
-二、frameworks/	
-===================						
-				
-1、 frameworks\base\package\SystemUI 
-----------------------------------------			
-## (1) 状态栏快捷设置中亮度设置的自动调节
-### \frameworks\base\packages\SystemUI\src\com\android\systemui\settings\ToggleSlider.java
-	ro.yongyida.auto_bright=false
-	此属性为是否屏蔽点击状态栏中亮度后弹出的亮度调节对话框的自动调节功能，默认值为true,显示，没有
-	光感功能的机器此属性设为false，屏蔽。此属性Setting中也会用到。
-	
-	另：没有光感时还需做以下配置
-		frameworks/core, config.xml
-		config_automatic_brightness_available   电量控制widget中是否有自动调节亮度
-				
-三、其他：		
-==============================
-									
-## (3) 是否支持gps
-### \frameworks\base\services\core\java\com\android\server\location\GpsLocationProvider.java
-		ro.yongyida.gpssupport
-		此值设为 false 时不支持，则系统中一些有关 gps 的设置将会被屏蔽，比如设置中位置信息访问权限的gps选项。
-		不设此值为true则默认支持。
-		
-## (4) 是否支持马达振动
-### \frameworks\base\services\core\java\com\android\server\VibratorService.java				
-		ro.yongyida.vibratorsupport
-		此值设为 false 时不支持，则系统中一些有关振动的设置将会被屏蔽，比如 设置->声音->触摸时振动。
-		不设此值为true则默认支持。					
 							 					
 		
 mtk属性
@@ -230,7 +128,6 @@ YYD属性定义
 # for Projection(y20a)
 ro.yongyida.projection_support=0     #投影支持：1支持，0不支持， 默认（或不设置时）为0
 
-# for y20c，部分属性与y50bpro通用
 ro.yongyida.back_button_define=1	   #20b后面按钮定义1为防跌开关, 默认（或不设置时）为0
 ro.yongyida.robot_raw_model=y20c_dev   #用于不同机型判断。相同机型不修改
 
@@ -240,13 +137,18 @@ ro.yongyida.smart_fall_prevent=0      #智能防跌：1支持，0不支持，默
 ro.yongyida.voice_wakeup_rate=0       #唤醒率控制：1支持，0不支持，默认（或不设置时）为0
 ro.yongyida.breath_led=1              #呼吸灯：1支持，0不支持，默认（或不设置时）为0
 ro.yongyida.gsensor_support=0	      #重力感应校准菜单：1支持，0不支持，默认（或不设置时）为0
+persist.yongyida.notification=true    #去除通知语音处理
+persist.yongyida.camera=true          #去除camera语音处理
+persist.yongyida.photos=true          #去除photos语音处理
+persist.yongyida.speak_led=true       #master说话时，呼吸灯不闪
 
-# for y50bpro
 ro.yongyida.boot_audio_play=1		    #开机播放欢迎人声
 ro.yongyida.use_system_settings=1	    #使用系统设置
 ro.yongyida.need_clean_background=1     #清理后台
 ro.yongyida.robot_raw_model=y50bpro_dev #用于不同机型判断。相同机型不修改
 ro.yongyida.face_recognition=1          #人脸识别功能，控制设置界面是否显示人脸识别菜单
+ro.motor.version=8163_20    			#区分平台机型马达 
+                                          #取值:8735_20 8735_50 8735_128 8735_150, 8163_20 8163_50 8163_128 8163_150
 
 ----------------------------------------------------------------------------------------------------------------------------
 YYD宏开关定义
@@ -278,4 +180,10 @@ YYD_FACE_RECOGNITION_SUPPORT
 #	shengwang：环信，视频监控
 # webrtc
 VIDEO_TYPE=webrtc
+
+#唤醒词：
+#    xiaoyong
+#    xiaobao
+#    xiaoshuai
+WAKE_UP_NAME=xiaoyong
 
