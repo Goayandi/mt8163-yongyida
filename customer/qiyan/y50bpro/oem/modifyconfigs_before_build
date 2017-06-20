@@ -1,0 +1,11 @@
+openfile:custom.conf
+dm.Model = QIYAN
+bluetooth.HostName = QIYAN_BT
+fmtransmitter.RDSValue = QIYAN
+wlan.SSID = QIYAN_AP
+endfile:custom.conf
+
+
+openfile:ProjectConfig.mk
+
+endfile:ProjectConfig.mk
