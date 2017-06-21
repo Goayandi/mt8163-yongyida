@@ -7,7 +7,7 @@ echo >> commit.txt
 echo >> commit.txt
 echo "====`date`====commit" >> commit.txt
 date "+%Y-%m-%d %H:%M:%S" >> commit.txt
-repo forall -p -c git log --since="1 days" --pretty=format:"%s----%an" > temp.log
+repo forall -p -c git log --since="1 days" --pretty=format:"%s----%an" --no-merges > temp.log
 cat temp.log | while read line
 do 
  templine=${line#[1mproject }
