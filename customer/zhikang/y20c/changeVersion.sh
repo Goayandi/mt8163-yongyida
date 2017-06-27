@@ -1,7 +1,7 @@
 #!/bin/bash
 #modify  versionNumber build/tools/buildinfo.sh
 changeBuildinfo(){	
-	default_version="ZK20C_V3R002"
+	default_version="ZK20C_V3R003"
 	propPath="$TARGET_DEVICE_DIR/system.prop"
 	read -p "[autobuild.sh]:  Please input new version number (default \"$default_version\"): " VersionNumber
 	if [ -n "$VersionNumber" ];then
@@ -25,7 +25,7 @@ changeBuildinfo(){
 
 #modify new versionNumber device/.../system.prop
 changeSystemProp(){
-	default_os="ZK20C.12.002"	
+	default_os="ZK20C.12.003"	
 	
 	read -p "[autobuild.sh]:  Please input new version number (default \"$default_os\"): " SecVersionNumber
 	echo "[autobuild.sh]:  modify $propPath"
