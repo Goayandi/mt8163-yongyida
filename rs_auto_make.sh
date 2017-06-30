@@ -3,7 +3,7 @@
 ANDROID_PATH=/home/tangli/code/mt8163
 cd $ANDROID_PATH
 DATE=`date "+%Y%m%d"`
-COMMITFILE="$ANDROID_PATH"/"$DATE"_zkcommit.txt
+COMMITFILE="$ANDROID_PATH"/"$DATE"_rscommit.txt
 #repo sync
 echo >> $COMMITFILE
 echo >> $COMMITFILE
