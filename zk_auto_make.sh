@@ -1,19 +1,21 @@
 #!/bin/bash
 
-ANDROID_PATH=/home/release/code/mt8163
+ANDROID_PATH=/home/tangli/code/mt8163
 cd $ANDROID_PATH
+DATE=`date "+%Y%m%d"`
+COMMITFILE="$ANDROID_PATH"/"$DATE"_zkcommit.txt
 #repo sync
-#echo >> commit.txt
-#echo >> commit.txt
-#echo "====`date`====commit" >> commit.txt
-#date "+%Y-%m-%d %H:%M:%S" >> commit.txt
-#repo forall -p -c git log --since="1 days" --pretty=format:"%s----%an" > temp.log
-#cat temp.log | while read line
-#do 
-# templine=${line#[1mproject }
-# echo ${templine%[m} >> commit.txt
-#done
-#tail -n 1 temp.log >> commit.txt
+echo >> $COMMITFILE
+echo >> $COMMITFILE
+echo "====`date`====commit" >> $COMMITFILE
+date "+%Y-%m-%d %H:%M:%S" >> $COMMITFILE
+repo forall -p -c git log --since="1 days" --pretty=format:"%s----%an" --no-merges > temp.log
+cat temp.log | while read line
+do 
+ templine=${line#[1mproject }
+ echo ${templine%[m} >> $COMMITFILE
+done
+tail -n 1 temp.log >> $COMMITFILE
 
 #*******************************************************************
 source build/envsetup.sh
@@ -201,7 +203,18 @@ unalias cp
 #修改版本号
 
 #. $CUSTOMIZATION_PATH/changeVersion.sh
-VersionNumber="ZK20C_V3R001"_`date +%Y%m%d%H%M`
+if [ -n $1 ]; then
+    ISDAILY=$1
+else
+	ISDAILY=no
+fi
+
+if [ $ISDAILY == daily ]; then
+    VersionNumber="ZK20C_V3R001"_`date +%Y%m%d%H%M`
+else
+    VersionNumber="ZK20C_V3R001"
+fi
+echo $VersionNumber
 propPath="$TARGET_DEVICE_DIR/system.prop"
 OldVersionNumber=`grep "ro.yongyida.build_number" $propPath`
 newVersion="ro.yongyida.build_number=$VersionNumber"
@@ -246,16 +259,23 @@ cd ../
 #**************************************************************************************************
 
 . yongyida/tools/copyimages.sh
+echo "tar images=================>>>"
+tar -zcvf "$VersionNumber".tar.gz pub/images
 echo "copy fota backup=================>>>"
 mkdir "$VersionNumber"_fota
 otapath=out/target/product/yyd8163_tb_m/
 cp $otapath*.zip "$VersionNumber"_fota
-echo "tar images=================>>>"
-tar -zcvf "$VersionNumber".tar.gz pub/images
+
+mkdir "$VersionNumber"
+mv "$VersionNumber".tar.gz "$VersionNumber"
+mv "$VersionNumber"_fota "$VersionNumber"
+mv "$COMMITFILE" "$VersionNumber"
+ 
+
 echo "copy release files to server=================>>>"
-scp -r "$VersionNumber"_fota sw_release@172.16.1.242:/home/sw_release/test_rom/y20c/zhikang
-scp "$VersionNumber".tar.gz sw_release@172.16.1.242:/home/sw_release/test_rom/y20c/zhikang
-#scp commit.txt sw_release@172.16.1.242:/home/sw_release/test_rom/y20c
+scp -r "$VersionNumber" sw_release@172.16.1.242:/home/sw_release/test_rom/y20c/zhikang
+#scp "$VersionNumber".tar.gz sw_release@172.16.1.242:/home/sw_release/test_rom/y20c/zhikang
+#scp $COMMITFILE sw_release@172.16.1.242:/home/sw_release/test_rom/y20c
 
 #**************************************************************************************************
 
