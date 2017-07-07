@@ -221,7 +221,7 @@ newVersion="ro.yongyida.build_number=$VersionNumber"
 sed -i "s/$OldVersionNumber/$newVersion/" $propPath
 echo -e "[autobuild.sh]: \e[0;31;1m new ro.yongyida.build_number=$VersionNumber \033[0m"
 
-SecVersionNumber="ROS.22.003"
+SecVersionNumber="ROS.22.001"
 SecOldVersionNumber=`grep "robot.os_version" $propPath`
 SecNewVersion="robot.os_version=$SecVersionNumber.`date +%m%d`"
 sed -i "s/$SecOldVersionNumber/$SecNewVersion/" $propPath

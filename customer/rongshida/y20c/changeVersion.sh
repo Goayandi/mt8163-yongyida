@@ -25,7 +25,7 @@ changeBuildinfo(){
 
 #modify new versionNumber device/.../system.prop
 changeSystemProp(){
-	default_os="ROS.22.003"	
+	default_os="ROS.22.001"	
 	
 	read -p "[autobuild.sh]:  Please input new version number (default \"$default_os\"): " SecVersionNumber
 	echo "[autobuild.sh]:  modify $propPath"
