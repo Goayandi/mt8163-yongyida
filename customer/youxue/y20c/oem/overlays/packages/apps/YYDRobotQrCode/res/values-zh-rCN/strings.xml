@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RobotQrCode</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="vedio">视频播放</string>
+
+
+
+
+	<string name="cdkeyid">ID:</string>
+	<string name="cdkeysid">SID:</string>
+	
+	<string name="back">返回</string>
+	<string name="delete_binding_user">解绑</string>
+	<string name="delete_warning">确定要解除绑定吗？</string>
+	<string name="ok">确定</string>
+	<string name="cancel">取消</string>
+
+
+	<string name="not_bind">没有绑定的用户</string>
+
+	<string name="str_id">ID:</string>
+	<string name="str_sid">SID:</string>
+	
+	<string name="id_err">机器人id有问题</string>
+	<string name="download_qrcode">请打开手机浏览器二维码扫描下载</string>
+	<string name="bind_qrcode">请点击应用绑定二维码按钮扫描绑定二维码进行绑定</string>
+	
+	<!-- dev  -->
+	<string name="remind_dev">请下载app,下载完毕后添加机器人ID绑定小帅哦</string>
+	<string name="scan_dev">扫描下载客户端(请勿使用微信扫描)</string>		
+	<string name="bindQrcode_dev">绑定二维码</string>
+	<string name="binding_user_list_dev">已绑定用户列表</string>
+	<string name="off_oline_dev">离线</string>
+	<string name="oline_dev">控制</string>	
+	
+	<string name="remind_dev_hk">请下载app,下载完毕后添加机器人ID绑定小帅哦</string>
+	<string name="scan_dev_hk">扫描下载客户端(请勿使用微信扫描)</string>
+	<string name="bindQrcode_dev_hk">绑定二维码</string>
+	<string name="binding_user_list_dev_hk">已绑定用户列表</string>
+	<string name="off_oline_dev_hk">离线</string>
+	<string name="oline_dev_hk">控制</string>		
+	
+	<!-- st -->
+	<string name="remind_st">请下载app,下载完毕后添加机器人ID绑定机器人哦</string>
+	<string name="scan_st">扫描下载小二管家(请勿使用微信扫描)</string>		
+	<string name="bindQrcode_st">绑定二维码</string>
+	<string name="binding_user_list_st">已绑定用户列表</string>
+	<string name="off_oline_st">离线</string>
+	<string name="oline_st">控制</string>	
+	
+	
+	<string name="remind_st_hk">请下载app,下载完毕后添加机器人ID绑定机器人哦</string>
+	<string name="scan_st_hk">扫描下载小二管家(请勿使用微信扫描)</string>
+	<string name="bindQrcode_st_hk">绑定二维码</string>
+	<string name="binding_user_list_st_hk">已绑定用户列表</string>
+	<string name="off_oline_st_hk">离线</string>
+	<string name="oline_st_hk">控制</string>	
+	
+	<!-- cmcc  -->
+	<string name="remind_cmcc">请下载app,下载完毕后添加机器人ID绑定机器人哦</string>
+	<string name="scan_cmcc">扫描下载客户端(请勿使用微信扫描)</string>
+	<string name="bindQrcode_cmcc">绑定二维码</string>
+	<string name="binding_user_list_cmcc">已绑定用户列表</string>
+	<string name="off_oline_cmcc">离线</string>
+	<string name="oline_cmcc">控制</string>	
+	
+	
+	<string name="remind_cmcc_hk">请下载app,下载完毕后添加机器人ID绑定机器人哦</string>
+	<string name="scan_cmcc_hk">扫描下载客户端(请勿使用微信扫描)</string>
+	<string name="bindQrcode_cmcc_hk">绑定二维码</string>
+	<string name="binding_user_list_cmcc_hk">已绑定用户列表</string>
+	<string name="off_oline_cmcc_hk">离线</string>
+	<string name="oline_cmcc_hk">控制</string>	
+
+	<!-- tw hk  -->
+	<string name="remind_tw">請下載app,下載完畢後增加機器人ID設定小帅哦</string>
+	<string name="scan_tw">掃描下載用戶端(請勿使用微信掃描)</string>
+	<string name="bindQrcode_tw">設定二維條碼</string>	
+	<string name="binding_user_list_tw">已設定用戶列表</string>
+	<string name="off_oline_tw">離線</string>
+	<string name="oline_tw">控制</string>	
+	<string name="scan_bound_user">查看已绑定用户</string>
+	<!-- 二维码URL获取  -->
+	<string name="qrcode_url_dev">https://resource.yydrobot.com/app/xiaoyongGeneral/cn/xiaoyongGeneral.html</string>	
+	<string name="qrcode_url_dev_hk">http://resource.yydrobot.com/app/yyd/hk/app.hk.html</string>	
+	<string name="qrcode_url_dev_st_hk">http://resource.yydrobot.com/app/shantukeji/hk/app.shantukeji.hk.html</string>	
+	<string name="qrcode_url_dev_st">http://resource.yydrobot.com/app/shantukeji/cn/app.shantukeji.html</string>	
+	<string name="qrcode_url_dev_cmcc">http://resource.yydrobot.com/app/cmcc/cn/app.cmcc.html</string>	
+	<string name="qrcode_url_dev_cmcc_hk">http://resource.yydrobot.com/app/cmcc/hk/app.cmcc.hk.html</string>	
+	<string name="qrcode_url_dev_cmcc_tw">http://resource.yydrobot.com/app/taiwan/cn/app.taiwan.html</string>
+</resources>
