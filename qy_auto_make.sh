@@ -210,9 +210,9 @@ else
 fi
 
 if [ $ISDAILY == daily ]; then
-    VersionNumber="QY50B_V3R001"_`date +%Y%m%d%H%M`
+    VersionNumber="QY50E_V3R001"_`date +%Y%m%d%H%M`
 else
-    VersionNumber="QY50B_V3R001"
+    VersionNumber="QY50E_V3R001"
 fi
 echo $VersionNumber
 propPath="$TARGET_DEVICE_DIR/system.prop"
@@ -221,7 +221,7 @@ newVersion="ro.yongyida.build_number=$VersionNumber"
 sed -i "s/$OldVersionNumber/$newVersion/" $propPath
 echo -e "[autobuild.sh]: \e[0;31;1m new ro.yongyida.build_number=$VersionNumber \033[0m"
 
-SecVersionNumber="QY50B.12.001"
+SecVersionNumber="QY50E.12.001"
 SecOldVersionNumber=`grep "robot.os_version" $propPath`
 SecNewVersion="robot.os_version=$SecVersionNumber.`date +%m%d`"
 sed -i "s/$SecOldVersionNumber/$SecNewVersion/" $propPath
