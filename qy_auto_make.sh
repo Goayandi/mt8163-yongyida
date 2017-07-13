@@ -273,7 +273,7 @@ mv "$COMMITFILE" "$VersionNumber"
  
 
 echo "copy release files to server=================>>>"
-#scp -r "$VersionNumber" peishengguo@172.16.1.246:/home/peishengguo/code/Y50D_VERSION
+scp -r "$VersionNumber" peishengguo@172.16.1.246:/home/peishengguo/code/
 
 #**************************************************************************************************
 
