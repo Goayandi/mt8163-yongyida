@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#ANDROID_PATH=/home/tangli/code/mt8163
-#cd $ANDROID_PATH
+ANDROID_PATH=/home/tangli/code/mt8163
+cd $ANDROID_PATH
 DATE=`date "+%Y%m%d"`
 COMMITFILE="$ANDROID_PATH"/"$DATE"_yongcommit.txt
 #repo sync
