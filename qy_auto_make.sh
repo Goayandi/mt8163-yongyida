@@ -236,7 +236,7 @@ make -j8 > Build.log
 
 #**************************************************************************************************
 
-make otapackage -j16
+#make otapackage -j16
 
 echo "make otapackage ..."
 
