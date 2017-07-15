@@ -8,6 +8,8 @@ openfile:ProjectConfig.mk
 #for y20c BreathLed
 YYD_BREATHLED_SUPPORT = yes
 
+YYD_PRODUCT_20 = yes
+
 #for y20c AR game
 YYD_AR_SUPPORT = yes
 

@@ -4,3 +4,4 @@
 # properties will be added into /system/build.prop
 # Property format are key = value 
 ro.product.model=QIYAN
+ro.motor.version=8163_50
