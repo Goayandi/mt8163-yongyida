@@ -7,5 +7,5 @@ endfile:custom.conf
 
 
 openfile:ProjectConfig.mk
-
+YYD_BREATHLED_SUPPORT = yes
 endfile:ProjectConfig.mk
