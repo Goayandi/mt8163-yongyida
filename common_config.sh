@@ -172,7 +172,7 @@ fi
 
 #拷贝要内置到system/priv-app/下的apk的库文件到临时文件lib
 #在Makefile执行oem_config.xml时再拷贝到system/lib/下
-mkdir oemapk/priv-app/
+mkdir -p oemapk/priv-app/
 alias cp='./yongyida/tools/copy_apk_so.sh'
 if [ -d $CUSTOMIZATION_PATH/apk/system_priv_apk ]; then
 	for filename in `ls $CUSTOMIZATION_PATH/apk/system_priv_apk`
