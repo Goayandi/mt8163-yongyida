@@ -12,4 +12,6 @@ YYD_5MIC_SUPPORT = yes
 WAKE_UP_NAME=youxue
 #工厂测试设置为yes
 YYD_FPGA_APK_SUPPROT = no
+LCM_HEIGHT = 600
+LCM_WIDTH = 1024
 endfile:ProjectConfig.mk

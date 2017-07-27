@@ -1,0 +1,16 @@
+openfile:custom.conf
+dm.Model = Y20
+bluetooth.HostName = Yong_BT
+fmtransmitter.RDSValue = Yongyida
+wlan.SSID = Yong_AP
+endfile:custom.conf
+
+
+openfile:ProjectConfig.mk
+VIDEO_TYPE=webrtc
+YYD_5MIC_SUPPORT = yes
+WAKE_UP_NAME=xiaoyong
+YYD_FPGA_APK_SUPPROT = no
+LCM_HEIGHT = 720
+LCM_WIDTH = 1280
+endfile:ProjectConfig.mk
