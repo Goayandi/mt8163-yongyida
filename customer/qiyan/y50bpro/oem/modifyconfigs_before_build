@@ -8,4 +8,6 @@ endfile:custom.conf
 
 openfile:ProjectConfig.mk
 YYD_BREATHLED_SUPPORT = yes
+LCM_HEIGHT = 720
+LCM_WIDTH = 1280
 endfile:ProjectConfig.mk
