@@ -1,8 +1,8 @@
 openfile:custom.conf
-dm.Model = UX
-bluetooth.HostName = UX
-fmtransmitter.RDSValue = UX
-wlan.SSID = UX
+dm.Model = YX
+bluetooth.HostName = YX
+fmtransmitter.RDSValue = YX
+wlan.SSID = YX
 endfile:custom.conf
 
 
@@ -10,5 +10,6 @@ openfile:ProjectConfig.mk
 VIDEO_TYPE=webrtc
 YYD_5MIC_SUPPORT = yes
 WAKE_UP_NAME=youxue
+#工厂测试设置为yes
 YYD_FPGA_APK_SUPPROT = no
 endfile:ProjectConfig.mk
