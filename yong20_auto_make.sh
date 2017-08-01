@@ -35,7 +35,7 @@ MTK_LOGO_PATH=vendor/mediatek/proprietary/bootable/bootloader/lk/dev/logo
 MTK_BATTER_PATH=vendor/mediatek/proprietary/bootable/bootloader/lk/dev/logo/
 
 #客制化配置路径
-CUSTOMIZATION_PATH=yongyida/customer/default/y20c+
+CUSTOMIZATION_PATH=yongyida/customer/xiaoyong/y20c
 length=${#CUSTOMIZATION_PATH}
 lastchar=${CUSTOMIZATION_PATH:length-1:length}
 if [[ $lastchar = "/" ]]; then
@@ -210,9 +210,9 @@ else
 fi
 
 if [ $ISDAILY == daily ]; then
-    VersionNumber="YOS_Y20C_V3R001"_`date +%Y%m%d%H%M`
+    VersionNumber="YOS_Y20CPRO_V3R001"_`date +%Y%m%d%H%M`
 else
-    VersionNumber="YOS_Y20C_V3R001"
+    VersionNumber="YOS_Y20CPRO_V3R001"
 fi
 echo $VersionNumber
 propPath="$TARGET_DEVICE_DIR/system.prop"
@@ -221,7 +221,7 @@ newVersion="ro.yongyida.build_number=$VersionNumber"
 sed -i "s/$OldVersionNumber/$newVersion/" $propPath
 echo -e "[autobuild.sh]: \e[0;31;1m new ro.yongyida.build_number=$VersionNumber \033[0m"
 
-SecVersionNumber="YOS2.0.0"
+SecVersionNumber="ROS.22.001"
 SecOldVersionNumber=`grep "robot.os_version" $propPath`
 SecNewVersion="robot.os_version=$SecVersionNumber.`date +%m%d`"
 sed -i "s/$SecOldVersionNumber/$SecNewVersion/" $propPath
