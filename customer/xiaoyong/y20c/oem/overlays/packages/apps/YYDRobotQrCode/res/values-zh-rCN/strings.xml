@@ -29,14 +29,14 @@
 	<string name="bind_qrcode">请点击应用绑定二维码按钮扫描绑定二维码进行绑定</string>
 	
 	<!-- dev  -->
-	<string name="remind_dev">请下载app,下载完毕后添加机器人ID绑定小帅哦</string>
+	<string name="remind_dev">请下载app,下载完毕后添加机器人ID绑定小勇哦</string>
 	<string name="scan_dev">扫描下载客户端(请勿使用微信扫描)</string>		
 	<string name="bindQrcode_dev">绑定二维码</string>
 	<string name="binding_user_list_dev">已绑定用户列表</string>
 	<string name="off_oline_dev">离线</string>
 	<string name="oline_dev">控制</string>	
 	
-	<string name="remind_dev_hk">请下载app,下载完毕后添加机器人ID绑定小帅哦</string>
+	<string name="remind_dev_hk">请下载app,下载完毕后添加机器人ID绑定小勇哦</string>
 	<string name="scan_dev_hk">扫描下载客户端(请勿使用微信扫描)</string>
 	<string name="bindQrcode_dev_hk">绑定二维码</string>
 	<string name="binding_user_list_dev_hk">已绑定用户列表</string>
@@ -76,7 +76,7 @@
 	<string name="oline_cmcc_hk">控制</string>	
 
 	<!-- tw hk  -->
-	<string name="remind_tw">請下載app,下載完畢後增加機器人ID設定小帅哦</string>
+	<string name="remind_tw">請下載app,下載完畢後增加機器人ID設定小勇哦</string>
 	<string name="scan_tw">掃描下載用戶端(請勿使用微信掃描)</string>
 	<string name="bindQrcode_tw">設定二維條碼</string>	
 	<string name="binding_user_list_tw">已設定用戶列表</string>
