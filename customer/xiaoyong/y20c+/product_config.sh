@@ -1,4 +1,0 @@
-#!/bin/bash
-
-export CUSTOMER_PRODUCT="y20c"
-export CUSTOMER_PRODUCT_MODEL="Y20C"
