@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ANDROID_PATH=/home/tangli/code/qiyan
+ANDROID_PATH=/home/tangli/code/mt8163
 cd $ANDROID_PATH
 DATE=`date "+%Y%m%d"`
 COMMITFILE="$ANDROID_PATH"/"$DATE"_zkcommit.txt
@@ -14,7 +14,7 @@ cat temp.log | while read line
 do 
  templine=${line#[1mproject }
  echo ${templine%[m} >> $COMMITFILE
-donesp2509_mipi_raw sp2518_yuv
+done
 tail -n 1 temp.log >> $COMMITFILE
 
 #*******************************************************************
@@ -273,7 +273,7 @@ mv "$COMMITFILE" "$VersionNumber"
  
 
 echo "copy release files to server=================>>>"
-scp -r "$VersionNumber" sw_release@172.16.1.242:/home/sw_release/test_rom/y50b
+scp -r "$VersionNumber" sw_release@172.16.1.242:/home/sw_release/test_rom/y50b/
 
 #**************************************************************************************************
 
