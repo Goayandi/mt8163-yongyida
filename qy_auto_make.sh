@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ANDROID_PATH=/home/tangli/code/mt8163
+ANDROID_PATH=/home/tangli/code/qiyan
 cd $ANDROID_PATH
 DATE=`date "+%Y%m%d"`
 COMMITFILE="$ANDROID_PATH"/"$DATE"_zkcommit.txt
@@ -14,7 +14,7 @@ cat temp.log | while read line
 do 
  templine=${line#[1mproject }
  echo ${templine%[m} >> $COMMITFILE
-done
+donesp2509_mipi_raw sp2518_yuv
 tail -n 1 temp.log >> $COMMITFILE
 
 #*******************************************************************
