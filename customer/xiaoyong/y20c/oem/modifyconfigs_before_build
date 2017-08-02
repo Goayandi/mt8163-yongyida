@@ -1,8 +1,8 @@
 openfile:custom.conf
-dm.Model = A8
-bluetooth.HostName = A8
-fmtransmitter.RDSValue = A8
-wlan.SSID = A8
+dm.Model = Y20CPRO
+bluetooth.HostName = Y20CPRO
+fmtransmitter.RDSValue = Y20CPRO
+wlan.SSID = Y20CPRO
 endfile:custom.conf
 
 
