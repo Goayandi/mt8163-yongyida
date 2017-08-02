@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ANDROID_PATH=/home/tangli/code/mt8163
+ANDROID_PATH=/home/tangli/code/qiyan
 cd $ANDROID_PATH
 DATE=`date "+%Y%m%d"`
 COMMITFILE="$ANDROID_PATH"/"$DATE"_zkcommit.txt
