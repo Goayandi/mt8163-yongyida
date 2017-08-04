@@ -9,7 +9,7 @@ echo >> $COMMITFILE
 echo >> $COMMITFILE
 echo "====`date`====commit" >> $COMMITFILE
 date "+%Y-%m-%d %H:%M:%S" >> $COMMITFILE
-repo forall -p -c git log --since="1 days" --pretty=format:"%s----%an" > temp.log
+repo forall -p -c git log --since="1 days" --pretty=format:"%s----%an" --no-merges > temp.log
 cat temp.log | while read line
 do 
  templine=${line#[1mproject }
@@ -273,7 +273,7 @@ mv "$COMMITFILE" "$VersionNumber"
  
 
 echo "copy release files to server=================>>>"
-scp -r "$VersionNumber" peishengguo@172.16.1.246:/home/peishengguo/code/
+scp -r "$VersionNumber" sw_release@172.16.1.242:/home/sw_release/test_rom/y50b
 
 #**************************************************************************************************
 
@@ -283,3 +283,4 @@ unset CUSTOMER_PRODUCT
 unset CUSTOMIZATION_PATH
 unset WIFI_ONLY
 #**************************************************************************************************
+
