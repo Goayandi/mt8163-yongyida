@@ -7,7 +7,7 @@ endfile:custom.conf
 
 
 openfile:ProjectConfig.mk
-VIDEO_TYPE=tutk
+VIDEO_TYPE=yzx
 YYD_5MIC_SUPPORT = yes
 WAKE_UP_NAME=xiaoshuai
 YYD_FPGA_APK_SUPPROT = no
