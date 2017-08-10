@@ -210,9 +210,9 @@ else
 fi
 
 if [ $ISDAILY == daily ]; then
-    VersionNumber="ROS_A8_V1R001"_`date +%Y%m%d%H%M`
+    VersionNumber="ROS_A8_V1R002"_`date +%Y%m%d%H%M`
 else
-    VersionNumber="ROS_A8_V1R001"
+    VersionNumber="ROS_A8_V1R002"
 fi
 echo $VersionNumber
 propPath="$TARGET_DEVICE_DIR/system.prop"
