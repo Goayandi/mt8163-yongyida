@@ -175,7 +175,7 @@
         <item>@drawable/menu_film</item>
         <item>@drawable/menu_settings</item>
         <!-- <item>@drawable/menu_proj</item> -->
-        <!-- <item>@drawable/menu_dialer</item> -->
+       <item>@drawable/menu_health_manager</item>
         <item>@drawable/menu_study</item>
         <item>@drawable/menu_music</item>
         <item>@drawable/menu_game</item>
@@ -193,7 +193,7 @@
         <item>@drawable/menu_film_selected</item>
         <item>@drawable/menu_settings_selected</item>
         <!-- <item>@drawable/menu_proj_selected</item> -->
-        <!-- <item>@drawable/menu_dialer_selected</item> -->
+        <item>@drawable/menu_health_manager_selected</item> 
         <item>@drawable/menu_study_selected</item>
         <item>@drawable/menu_music_selected</item>
         <item>@drawable/menu_game_selected</item>
@@ -211,7 +211,7 @@
         <item>"com.yongyida.robot.videotutarial"</item>
         <item>"com.yongyida.robot.settings"</item>
         <!-- <item>"com.yongyida.robot.projector"</item> -->
-        <!-- <item>"com.android.dialer"</item> -->
+		<item>"com.libin.robot"</item> 
         <item>"com.yongyida.robot.study"</item>
         <item>"com.yongyida.robot.artmuseum"</item>
         <item>"com.yongyida.robot.game"</item>
