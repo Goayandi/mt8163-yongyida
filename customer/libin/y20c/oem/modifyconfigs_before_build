@@ -18,5 +18,5 @@ CUSTOM_LK_LCM = rm68200_dsi_cmd
 CUSTOM_UBOOT_LCM = rm68200_dsi_cmd
 CUSTOM_KERNEL_LCM = rm68200_dsi_cmd
 
-CUSTOM_LIBIN = yes
+CUSTOM_NAME = libin_y20
 endfile:ProjectConfig.mk
