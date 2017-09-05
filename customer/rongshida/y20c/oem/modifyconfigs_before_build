@@ -7,7 +7,7 @@ endfile:custom.conf
 
 
 openfile:ProjectConfig.mk
-VIDEO_TYPE=yzx
+VIDEO_TYPE=yzx_rs
 YYD_5MIC_SUPPORT = yes
 WAKE_UP_NAME=xiaoshuai
 YYD_FPGA_APK_SUPPROT = no
@@ -17,4 +17,5 @@ BOOT_LOGO = hd720nl
 CUSTOM_LK_LCM = rm68200_dsi_cmd
 CUSTOM_UBOOT_LCM = rm68200_dsi_cmd
 CUSTOM_KERNEL_LCM = rm68200_dsi_cmd
+CUSTOM_NAME = rongshida
 endfile:ProjectConfig.mk
