@@ -28,7 +28,7 @@
         <item>@drawable/menu_dialer</item>
         <!-- <item>@drawable/menu_study</item> -->
         <item>@drawable/menu_music</item>
-        <item>@drawable/menu_game</item>
+        <item>@drawable/menu_xf_music</item>
         <item>@drawable/menu_tools</item>
         <item>@drawable/menu_app</item>
         <!-- <item>@drawable/menu_video</item> -->
@@ -46,7 +46,7 @@
         <item>@drawable/menu_dialer_selected</item>
         <!-- <item>@drawable/menu_study_selected</item> -->
         <item>@drawable/menu_music_selected</item>
-        <item>@drawable/menu_game_selected</item>
+        <item>@drawable/menu_xf_music_selected</item>
         <item>@drawable/menu_tools_selected</item>
         <item>@drawable/menu_app_selected</item>
         <!-- <item>@drawable/menu_video_selected</item> -->
@@ -64,7 +64,7 @@
         <item>"com.android.dialer"</item>
         <!-- <item>"com.yongyida.robot.study"</item> -->
         <item>"com.yongyida.robot.artmuseum"</item>
-        <item>"com.yongyida.robot.gamecenter"</item>
+        <item>"com.lz.smart.music"</item>
         <item>"com.yongyida.robot.tools"</item>
         <item>"com.yongyida.robot.apps"</item>
         <!-- <item>"com.yongyida.robot.video"</item> -->
