@@ -147,6 +147,11 @@ if [ -e $CUSTOMIZATION_PATH/oem/device.mk ]; then
 fi
 
 
+#peishengguo
+if [ -e $CUSTOMIZATION_PATH/oem/full_yyd8163_tb_m.mk ]; then
+	cp  -rf $CUSTOMIZATION_PATH/oem/full_yyd8163_tb_m.mk $TARGET_DEVICE_DIR/
+fi
+
 #拷贝第一帧logo:实则为uboot和kernel的两帧logo	qxga-2048*1536, wxga-1280*800, xga-1024*768, hd720-720*1280
 if [ -e $CUSTOMIZATION_PATH/oem/bootlogo.bmp ]; then
 	cp -rf $CUSTOMIZATION_PATH/oem/bootlogo.bmp $MTK_LOGO_PATH/hd720nl/hd720nl_uboot.bmp
