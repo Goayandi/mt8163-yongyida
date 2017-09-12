@@ -15,5 +15,5 @@ CUSTOM_LK_LCM = rm68200_dsi_cmd
 CUSTOM_UBOOT_LCM = rm68200_dsi_cmd
 CUSTOM_KERNEL_LCM = rm68200_dsi_cmd
 WAKE_UP_NAME=hellorobot_6mic_50e
-APP_SIGN=persigned
+APP_SIGN=presigned
 endfile:ProjectConfig.mk
