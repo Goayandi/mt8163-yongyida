@@ -14,5 +14,6 @@ BOOT_LOGO = hd720nl
 CUSTOM_LK_LCM = rm68200_dsi_cmd
 CUSTOM_UBOOT_LCM = rm68200_dsi_cmd
 CUSTOM_KERNEL_LCM = rm68200_dsi_cmd
-WAKE_UP_NAME=xiaoyong_6mic_50d
+WAKE_UP_NAME=hellorobot_6mic_50e
+APP_SIGN=persigned
 endfile:ProjectConfig.mk
