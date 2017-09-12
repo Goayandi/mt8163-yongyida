@@ -35,7 +35,7 @@ MTK_LOGO_PATH=vendor/mediatek/proprietary/bootable/bootloader/lk/dev/logo
 MTK_BATTER_PATH=vendor/mediatek/proprietary/bootable/bootloader/lk/dev/logo/
 
 #客制化配置路径
-CUSTOMIZATION_PATH=yongyida/customer/qiyan/y50bpro
+CUSTOMIZATION_PATH=$1
 length=${#CUSTOMIZATION_PATH}
 lastchar=${CUSTOMIZATION_PATH:length-1:length}
 if [[ $lastchar = "/" ]]; then
@@ -161,6 +161,7 @@ fi
 if [ -e $CUSTOMIZATION_PATH/oem/device.mk ]; then
 	cp  -rf $CUSTOMIZATION_PATH/oem/device.mk $MTK_COMMON/
 fi
+
 
 
 #拷贝第一帧logo:实则为uboot和kernel的两帧logo	qxga-2048*1536, wxga-1280*800, xga-1024*768, hd720-720*1280
