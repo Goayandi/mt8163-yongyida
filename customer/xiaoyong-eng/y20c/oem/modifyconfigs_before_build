@@ -7,7 +7,7 @@ endfile:custom.conf
 
 
 openfile:ProjectConfig.mk
-VIDEO_TYPE=yzx_xiaoyong
+VIDEO_TYPE=yzx_common
 YYD_5MIC_SUPPORT = yes
 WAKE_UP_NAME=hellorobot_5mic_20cpro
 APP_SIGN=presigned
