@@ -7,10 +7,10 @@ endfile:custom.conf
 
 
 openfile:ProjectConfig.mk
-VIDEO_TYPE=yzx_xiaoyong
+VIDEO_TYPE=yzx_common
 YYD_5MIC_SUPPORT = yes
 WAKE_UP_NAME=hellorobot_5mic_20cpro
-APP_SIGN=persigned
+APP_SIGN=presigned
 YYD_FPGA_APK_SUPPROT = no
 LCM_HEIGHT = 720
 LCM_WIDTH = 1280
