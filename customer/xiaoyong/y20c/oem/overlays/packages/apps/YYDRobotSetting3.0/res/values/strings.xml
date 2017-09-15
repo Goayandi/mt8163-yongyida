@@ -185,6 +185,7 @@
     <string name="lock_title">儿童锁</string>
     <string name="prog_manage_title">启用程序管理</string>
     <string name="file_manage_title">文件管理</string>
+    <string name="download_manage_title">下载管理</string>
     <string name="electricity_title">显示电量百分比</string>
     <string name="clear_title">空间清理</string>
     <string name="fall_title">智能防跌</string>
@@ -238,6 +239,7 @@
     <string name="dialog_fac_set_confirm">恢复出厂</string>
     <string name="dialog_input_name">请输入您的昵称</string>
     <string name="dialog_toast_input_nickname">请输入昵称</string>
+	<string name="dialog_toast_input_name">请输入名称</string>
     <string name="dialog_toast_nickname_length">名字长度超过限制</string>
     <string name="name_exist">名字已存在</string>
     <string name="exceed_limit">超过人数限制</string>
@@ -264,4 +266,22 @@
     <string name="password_num_less_than_eight">输入的密码字符少于8个!</string>
     <string name="delete_wifi_password_success">清除密码成功！</string>
     <string name="network_password_saved">已保存</string>
+    <string name="network_password_connected">已连接</string>
+
+    <string name="download_title_text">下载管理</string>
+    <string name="downloaded_text">已下载</string>
+    <string name="installed_text">已安装</string>
+    <string name="delete_tip_text">确定要删除安装文件吗？</string>
+    <string name="btn_browser">浏览器</string>
+    <string name="et_search_hint">输入内容</string>
+    <string name="btn_search">搜索</string>
+    <string name="uri_123">hao123</string>
+    <string name="uri_baidu">百度</string>
+    <string name="uri_google">Google</string>
+
+    <!--dialog_tips-->
+    <string name="fall_close_tip">智能防跌功能关闭，请注意防止机器人跌落！</string>
+    <string name="fall_open_tip">智能防跌功能开启.请勿在深色或浅亮光滑的平面使用该功能！</string>
+
+    <string name="DEV_URL">https://resource.yydrobot.com/app/yyd/xiaoyonghudong/cn/xiaoyonghudong.html</string>
 </resources>
