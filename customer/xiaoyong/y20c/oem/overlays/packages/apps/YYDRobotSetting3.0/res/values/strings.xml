@@ -284,4 +284,8 @@
     <string name="fall_open_tip">智能防跌功能开启.请勿在深色或浅亮光滑的平面使用该功能！</string>
 
     <string name="DEV_URL">https://resource.yydrobot.com/app/yyd/xiaoyonghudong/cn/xiaoyonghudong.html</string>
+
+	    <!--dialog_face_edit-->
+    <string name="face_edit">重新录入</string>
+    <string name="face_delete">删除</string>
 </resources>
