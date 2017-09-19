@@ -176,7 +176,7 @@
     <string name="brightness_title">屏幕亮度</string>
     <string name="brightness_auto">自动调节亮度</string>
     <string name="brightness_min">0</string>
-    <string name="brightness_max">12</string>
+    <string name="brightness_max">10</string>
     <string name="rest_title">夜间休息模式</string>
     <string name="get_up_title">起床时间</string>
     <string name="get_up_text">06:00</string>
