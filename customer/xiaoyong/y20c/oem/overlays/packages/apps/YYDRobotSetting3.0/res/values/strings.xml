@@ -285,7 +285,12 @@
 
     <string name="DEV_URL">https://resource.yydrobot.com/app/yyd/xiaoyonghudong/cn/xiaoyonghudong.html</string>
 
-	    <!--dialog_face_edit-->
+	<!--dialog_face_edit-->
     <string name="face_edit">重新录入</string>
     <string name="face_delete">删除</string>
+
+	<!--2017/9/20-->
+    <string name="about_ip">IP地址</string>
+    <string name="about_ip_unavailable">不可用</string>
+    <string name="about_mac">MAC地址</string>
 </resources>
