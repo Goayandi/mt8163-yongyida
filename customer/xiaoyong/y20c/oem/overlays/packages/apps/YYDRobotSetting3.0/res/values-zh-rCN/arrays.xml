@@ -17,7 +17,6 @@
         <item>打断当前任务</item>
         <item>返回主界面</item>
         <item>退出当前应用</item>
-        <item>返回上级页面</item>
         <item>关闭机器人</item>
         <item>调小音量</item>
         <item>调大音量</item>
@@ -29,7 +28,6 @@
         <item>打开互动游戏</item>
         <item>打开魔法AR</item>
         <item>打开萌宝闹钟</item>
-        <item>打开知了乐园</item>
         <item>互动游戏</item>
         <item>机器人前进</item>
         <item>机器人后退</item>
@@ -48,8 +46,6 @@
         <item>单曲循环播放</item>
         <item>顺序播放</item>
         <item>随机播放</item>
-        <item>快进xx分/秒</item>
-        <item>快退xx分/秒</item>
         <item>播放视频</item>
         <item>看指定视频</item>
         <item>看指定对象的视频</item>
@@ -57,8 +53,6 @@
         <item>看指定剧集</item>
         <item>暂停</item>
         <item>继续播放</item>
-        <item>快进xx分/秒</item>
-        <item>快退xx分/秒</item>
         <item>播放上一集</item>
         <item>播放下一集</item>
         <item>播放第XX集</item>
@@ -72,28 +66,19 @@
         <item>拨号进行中挂断电话</item>
         <item>来电时接听</item>
         <item>观看照片</item>
-        <item>看指定时间拍摄的照片</item>
-        <item>浏览下一张</item>
-        <item>浏览上一张</item>
         <item>设置闹钟</item>
         <item>关闭闹钟</item>
         <item>删除闹钟</item>
         <item>打开闹钟</item>
-        <item>查股票</item>
         <item>查天气</item>
-        <item>查空气质量</item>
-        <item>查PM2.5</item>
         <item>查新闻</item>
-        <item>查附近美食</item>
-        <item>查话费</item>
     </string-array>
 
     <string-array name="speaker_content">
-        <item>小勇小勇、哈喽，小勇</item>
+        <item>小勇、小勇小勇</item>
         <item>好了小勇、好的小勇、好了好了、打住</item>
         <item>返回首页、返回主页、回到主页、去主页、主页</item>
         <item>退出、关闭应用、退出应用</item>
-        <item>返回、返回上一页、上一页、退一页</item>
         <item>关机、关闭、关了、X分钟后关机、小勇关机</item>
         <item>音量调小、小声些、小点声、声音小点、声音太大啦</item>
         <item>音量调大、大声些、大点声、声音大点、声音太小啦</item>
@@ -105,7 +90,6 @@
         <item>玩游戏、打开游戏、玩会儿游戏</item>
         <item>魔法AR、打开AR、AR游戏</item>
         <item>萌宝闹钟、打开闹钟、设闹钟、闹钟</item>
-        <item>知了乐园、乐园、学习</item>
         <item>游戏、玩游戏、打开游戏、玩会儿游戏、互动游戏</item>
         <item>过来、小勇过来、前进、往前走、走过来、过来点</item>
         <item>小勇后退、退后、后退、往后退、往回走、倒回去</item>
@@ -124,8 +108,6 @@
         <item>循环、单曲循环、循环播放、再来一遍</item>
         <item>顺序播放</item>
         <item>随机播放、随机听歌</item>
-        <item>快进xx秒、前进xx秒、向前xx秒</item>
-        <item>快退xx秒、快退xx秒、后退XX秒</item>
         <item>我想看视频、我想看电影、播个电影、看个电影</item>
         <item>我想看xx、播放xx视频、放个xx视频、播个XX</item>
         <item>我想看xx的片子、放xx的电影、看个xx的片子</item>
@@ -133,8 +115,6 @@
         <item>放第xx集、xx集</item>
         <item>暂停、暂停一会儿、停一下</item>
         <item>继续、继续播放、接着播、接着看</item>
-        <item>快进xx秒、前进xx秒、向前xx秒</item>
-        <item>快退xx秒、快退xx秒、后退XX秒</item>
         <item>上一首、上一个</item>
         <item>下一首、下一个</item>
         <item>播放第xx集</item>
@@ -148,19 +128,11 @@
         <item>关啦、挂断、挂了、挂电话</item>
         <item>接听、接电话、接</item>
         <item>看照片、打开相册、相册打开、看相册</item>
-        <item>看昨天的照片、打开前天的相册、看xx日的照片</item>
-        <item>下一张、下一个、换一张</item>
-        <item>上一张、上一个、前面一张</item>
         <item>提醒xx（谁）xx（时间）做xx（事项）如：明天早上8点通知我起床半个小时后提醒我</item>
         <item>关闭、关了、关闹钟、关闭闹钟 、关闭第X条闹钟</item>
         <item>闹钟删了、删除这个闹钟、删除闹钟、删除第X条闹钟</item>
         <item>打开第x条闹钟 开启闹钟 设置闹钟</item>
-        <item>查股票行情、今天股票怎么样、股票xxxx（具体的股票代码）、昨天的股票行情怎么样、我想查股票</item>
         <item>今天天气怎么样、明天下雨么、最近天气如何</item>
-        <item>今天的空气怎么样、空气质量怎么样、</item>
-        <item>PM2.5指数、今天PM2.5是多少</item>
         <item>最近有什么新闻啊、听听新闻、查查XX的新闻	</item>
-        <item>附近有什么好吃的啊</item>
-        <item>我想查话费</item>
     </string-array>
 </resources>
