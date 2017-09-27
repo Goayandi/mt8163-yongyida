@@ -25,7 +25,7 @@
 			在客制化目录下放一个脚本命名为 product_config.sh ，此脚本导出全局变量 CUSTOMER_PRODUCT 来控制拷贝对应型号的	 
 		配置，编译完毕后会被释放。
 		
-		若apps源码修改太多，可用CUSTOMER_PRODUCT变量来控制具体编译的mk，如YYDRobotVoiceMainService	   
+		若apps源码修改太多，可用CUSTOMER_PRODUCT变量来控制具体编译的mk，如YYDRobotVoiceMainService  	   
 '''		
 		ifeq ($(CUSTOMER_PRODUCT), y20c)
 			include $(LOCAL_PATH)/y20c/Android.mk
