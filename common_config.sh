@@ -219,16 +219,16 @@ echo "make otapackage ..."
 #还原编译产生的diff
 #恢复默认的overlay和checkout device目录
 rm -rf $TARGET_DEVICE_DIR/overlay/  
-cd device/
+#cd device/
 git checkout ./
 cd ../
 
 cd kernel-3.18
-git checkout ./
+#git checkout ./
 cd ../
 
 cd vendor/
-git checkout .
+#git checkout .
 cd ../
 
 #**************************************************************************************************
