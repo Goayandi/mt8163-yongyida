@@ -10,6 +10,7 @@
         <item>魔法AR</item>
         <item>互动游戏</item>
         <item>音乐</item>
+		<item>视频通话</item>
 
         <item>趣拍</item>
     </string-array>
@@ -23,6 +24,7 @@
         <item>@drawable/laun_ar</item>
         <item>@drawable/laun_wisdom_star</item>
         <item>@drawable/laun_music</item>
+		<item>@drawable/vedio_rs20</item>
 
         <item>@drawable/laun_camera</item>
     </string-array>
@@ -37,6 +39,7 @@
         <item>@string/ar</item>
         <item>@string/wisdom_star</item>
         <item>@string/music</item>
+		<item>@string/video_rs20</item>
 
         <item>@string/camera</item>
     </string-array>
