@@ -1,15 +1,15 @@
 openfile:custom.conf
-dm.Model = Y20CPRO
-bluetooth.HostName = Y20CPRO
-fmtransmitter.RDSValue = Y20CPRO
-wlan.SSID = Y20CPRO
+dm.Model = Y20D
+bluetooth.HostName = Y20D
+fmtransmitter.RDSValue = Y20D
+wlan.SSID = Y20D
 endfile:custom.conf
 
 
 openfile:ProjectConfig.mk
 VIDEO_TYPE=yzx_xiaoyong
 YYD_5MIC_SUPPORT = yes
-WAKE_UP_NAME=xiaoyong
+WAKE_UP_NAME=xiaoyong_3_0
 YYD_FPGA_APK_SUPPROT = no
 LCM_HEIGHT = 720
 LCM_WIDTH = 1280
