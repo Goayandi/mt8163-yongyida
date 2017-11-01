@@ -273,7 +273,7 @@
     <string name="installed_text">已安装</string>
     <string name="delete_tip_text">确定要删除安装文件吗？</string>
     <string name="btn_browser">浏览器</string>
-    <string name="et_search_hint">输入内容</string>
+    <string name="et_search_hint">请输入网址</string>
     <string name="btn_search">搜索</string>
     <string name="uri_123">hao123</string>
     <string name="uri_baidu">百度</string>

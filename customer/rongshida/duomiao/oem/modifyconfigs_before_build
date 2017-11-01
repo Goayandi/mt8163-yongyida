@@ -1,0 +1,23 @@
+openfile:custom.conf
+dm.Model = A8
+bluetooth.HostName = A8
+fmtransmitter.RDSValue = A8
+wlan.SSID = A8
+endfile:custom.conf
+
+
+openfile:ProjectConfig.mk
+VIDEO_TYPE=yzx_rs
+YYD_5MIC_SUPPORT = yes
+WAKE_UP_NAME=xiaoshuai_3_0_duomiao
+YYD_FPGA_APK_SUPPROT = no
+LCM_HEIGHT = 720
+LCM_WIDTH = 1280
+BOOT_LOGO = hd720nl
+CUSTOM_LK_LCM = rm68200_dsi_cmd
+CUSTOM_UBOOT_LCM = rm68200_dsi_cmd
+CUSTOM_KERNEL_LCM = rm68200_dsi_cmd
+CUSTOM_NAME = rongshida
+
+CUSTOMER = duomiao
+endfile:ProjectConfig.mk
