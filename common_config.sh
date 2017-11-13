@@ -152,11 +152,15 @@ if [ -e $CUSTOMIZATION_PATH/oem/full_yyd8163_tb_m.mk ]; then
 	cp  -rf $CUSTOMIZATION_PATH/oem/full_yyd8163_tb_m.mk $TARGET_DEVICE_DIR/
 fi
 
+#peishengguo 从modifyconfigs_before_build读取BOOT_LOGO值来决定开机logo图片的修改
+BOOT_LOGO=`cat $CUSTOMIZATION_PATH/oem/modifyconfigs_before_build |grep "BOOT_LOGO" | tail -n 1 | cut -d "=" -f2- | awk '{print $1}'`
+echo $BOOT_LOGO
+
 #拷贝第一帧logo:实则为uboot和kernel的两帧logo	qxga-2048*1536, wxga-1280*800, xga-1024*768, hd720-720*1280
 if [ -e $CUSTOMIZATION_PATH/oem/bootlogo.bmp ]; then
-	cp -rf $CUSTOMIZATION_PATH/oem/bootlogo.bmp $MTK_LOGO_PATH/hd720nl/hd720nl_uboot.bmp
-	cp -rf $CUSTOMIZATION_PATH/oem/bootlogo.bmp $MTK_LOGO_PATH/hd720nl/hd720nl_low_battery.bmp
-	cp -rf $CUSTOMIZATION_PATH/oem/bootlogo.bmp $MTK_LOGO_PATH/hd720nl/hd720nl_kernel.bmp
+	cp -rf $CUSTOMIZATION_PATH/oem/bootlogo.bmp $MTK_LOGO_PATH/$BOOT_LOGO/$BOOT_LOGO"_uboot".bmp
+	cp -rf $CUSTOMIZATION_PATH/oem/bootlogo.bmp $MTK_LOGO_PATH/$BOOT_LOGO/$BOOT_LOGO"_low_battery".bmp
+	cp -rf $CUSTOMIZATION_PATH/oem/bootlogo.bmp $MTK_LOGO_PATH/$BOOT_LOGO/$BOOT_LOGO"_kernel".bmp
 fi
 
 
