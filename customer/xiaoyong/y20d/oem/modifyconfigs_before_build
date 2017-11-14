@@ -7,6 +7,13 @@ endfile:custom.conf
 
 
 openfile:ProjectConfig.mk
+
+
+CUSTOM_KERNEL_IMGSENSOR = sp2518_yuv gc5025_mipi_raw sp5506_mipi_raw
+CUSTOM_HAL_IMGSENSOR = sp2518_yuv gc5025_mipi_raw sp5506_mipi_raw
+CUSTOM_KERNEL_MAIN_IMGSENSOR = gc5025_mipi_raw sp5506_mipi_raw
+CUSTOM_HAL_MAIN_IMGSENSOR = gc5025_mipi_raw sp5506_mipi_raw
+
 VIDEO_TYPE=yzx_xiaoyong
 YYD_5MIC_SUPPORT = yes
 WAKE_UP_NAME=xiaoyong_3_0
