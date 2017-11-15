@@ -10,8 +10,8 @@
         <item>魔法AR</item>
         <item>互动游戏</item>
         <item>音乐</item>
-	<item>视频通话</item>
-
+		
+		<item>视频通话</item>
         <item>趣拍</item>
     </string-array>
 
@@ -24,11 +24,24 @@
         <item>@drawable/laun_ar</item>
         <item>@drawable/laun_wisdom_star</item>
         <item>@drawable/laun_music</item>
-	<item>@drawable/vedio_rs20</item>
-
+		
+		<item>@drawable/vedio_rs20</item>
         <item>@drawable/laun_camera</item>
     </string-array>
+	 <string-array name="launcher_item_mp3">
+        <item>mp3/launcher/10.mp3</item>
+        <item>mp3/launcher/5.mp3</item>
+        <item>mp3/launcher/6.mp3</item>
 
+        <item>mp3/launcher/7.mp3</item>
+        <item>mp3/launcher/8.mp3</item>
+        <item>mp3/launcher/9.mp3</item>
+		
+		<item>视频通话</item>
+        <item>mp3/launcher/11.mp3</item>
+       
+    
+    </string-array>
 
     <!-- 主菜单对应的包名，与主菜单名称对应 -->
     <string-array name="launcher_item_package" translatable="false">
@@ -39,8 +52,8 @@
         <item>@string/ar</item>
         <item>@string/wisdom_star</item>
         <item>@string/music</item>
-	<item>@string/video_rs20</item>
-
+		
+		<item>@string/video_rs20</item>
         <item>@string/camera</item>
     </string-array>
 </resources>
