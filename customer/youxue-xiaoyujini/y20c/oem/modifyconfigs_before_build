@@ -1,0 +1,21 @@
+openfile:custom.conf
+dm.Model = YX
+bluetooth.HostName = YX
+fmtransmitter.RDSValue = YX
+wlan.SSID = YX
+endfile:custom.conf
+
+
+openfile:ProjectConfig.mk
+VIDEO_TYPE=webrtc
+YYD_5MIC_SUPPORT = yes
+WAKE_UP_NAME=8163_Y20_YX_XIAOYUJINI_5MICS
+#工厂测试设置为yes
+YYD_FPGA_APK_SUPPROT = no
+LCM_HEIGHT = 600
+LCM_WIDTH = 1024
+CUSTOM_LK_LCM = nt51021
+CUSTOM_UBOOT_LCM = nt51021
+CUSTOM_KERNEL_LCM = nt51021
+BOOT_LOGO = yyd1024
+endfile:ProjectConfig.mk
