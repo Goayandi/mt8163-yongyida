@@ -3,6 +3,7 @@
 changeBuildinfo(){	
 	default_version="ZK20C_V3R004"
 	propPath="$TARGET_DEVICE_DIR/system.prop"
+	ProjectConfigPath="$TARGET_DEVICE_DIR/ProjectConfig.mk"
 	read -p "[autobuild.sh]:  Please input new version number (default \"$default_version\"): " VersionNumber
 	if [ -n "$VersionNumber" ];then
 		echo -e "[autobuild.sh]: \e[0;31;1m You are changing version number to $VersionNumber \033[0m"
@@ -16,6 +17,13 @@ changeBuildinfo(){
 		VersionNumber="$VersionNumber"_`date +%Y%m%d%H%M`
 	elif [ -z $isDaily ]; then
 		VersionNumber="$VersionNumber"_`date +%Y%m%d%H%M`
+	else
+		AdbdRoot=`grep "MTK_ALLOW_ADBD_ROOT" $ProjectConfigPath`
+		BuildRoot=`grep "MTK_BUILD_ROOT" $ProjectConfigPath`
+		UserAdbdRoot="MTK_ALLOW_ADBD_ROOT = no"
+		UserBuildRoot="MTK_BUILD_ROOT = no"
+		sed -i "s/$AdbdRoot/$UserAdbdRoot/" $ProjectConfigPath
+		sed -i "s/$BuildRoot/$UserBuildRoot/" $ProjectConfigPath
 	fi
 	OldVersionNumber=`grep "ro.yongyida.build_number" $propPath`
 	newVersion="ro.yongyida.build_number=$VersionNumber"
