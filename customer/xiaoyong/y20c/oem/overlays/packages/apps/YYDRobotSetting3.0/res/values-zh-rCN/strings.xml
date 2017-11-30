@@ -122,6 +122,7 @@
     <string name="brightness_title">屏幕亮度</string>
     <string name="brightness_auto">自动调节亮度</string>
     <string name="rest_title">夜间休息模式</string>
+    <string name="rest_remind">(语音唤醒 视频通话 APP内容推送等功能将暂时关闭)</string>
     <string name="get_up_title">起床时间</string>
     <string name="sleep_title">睡觉时间</string>
     <string name="lock_title">儿童锁</string>

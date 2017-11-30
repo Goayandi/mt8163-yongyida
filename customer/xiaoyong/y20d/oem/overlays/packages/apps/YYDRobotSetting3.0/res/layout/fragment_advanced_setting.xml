@@ -43,7 +43,7 @@
             android:layout_height="@dimen/all_divider_height"
             android:layout_below="@+id/RLayout_file_manage"
             android:background="@color/all_divider_color"
-            android:visibility="gone"/>
+            />
 
         <RelativeLayout
             android:id="@+id/RLayout_download_manage"
@@ -51,7 +51,7 @@
             android:layout_height="@dimen/about_item_height"
             android:layout_below="@+id/divider0"
             android:background="@drawable/layout_selector"
-            android:visibility="gone">
+            >
 
             <TextView
                 android:id="@+id/tv_download_manage"
