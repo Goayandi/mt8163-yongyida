@@ -2266,7 +2266,7 @@ PRODUCT_PACKAGES += YYDRobotIDHelper     # 获取机器人ID。删除时请谨�
 PRODUCT_PACKAGES += MiramemsGsensorTool  # 重力校准
 PRODUCT_PACKAGES += YYDRobotFloatButton	 # 悬浮按钮
 PRODUCT_PACKAGES += YYDRobotMotorService
-PRODUCT_PACKAGES += YYDRobotLauncher	 # Launcher
+#PRODUCT_PACKAGES += YYDRobotLauncher	 # Launcher
 
 PRODUCT_PACKAGES += YYDRobotQrCode
 PRODUCT_PACKAGES += YYDRobotVideo
