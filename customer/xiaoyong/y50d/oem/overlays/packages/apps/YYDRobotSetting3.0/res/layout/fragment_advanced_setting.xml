@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingLeft="@dimen/parents_setup_paddingLeft"
+    android:paddingRight="@dimen/parents_setup_paddingLeft"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/RLayout_file_manage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_item_height"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/layout_selector">
+
+            <TextView
+                android:id="@+id/tv_file_manage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/file_manage_title"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/about_item_text_size" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/item_right_icon" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider0"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_divider_height"
+            android:layout_below="@+id/RLayout_file_manage"
+            android:background="@color/all_divider_color"
+            />
+
+        <RelativeLayout
+            android:id="@+id/RLayout_download_manage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_item_height"
+            android:layout_below="@+id/divider0"
+            android:background="@drawable/layout_selector"
+            >
+
+            <TextView
+                android:id="@+id/tv_download_manage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/download_manage_title"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/about_item_text_size" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/item_right_icon" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_divider_height"
+            android:layout_below="@+id/RLayout_download_manage"
+            android:background="@color/all_divider_color" />
+
+        <RelativeLayout
+            android:id="@+id/RLayout_electricity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_item_height"
+            android:layout_below="@+id/divider1">
+
+            <TextView
+                android:id="@+id/tv_electricity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/electricity_title"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/about_item_text_size" />
+
+            <Switch
+                android:id="@+id/electricity_on_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="17dp"
+                android:focusable="false"
+                android:switchMinWidth="20dp"
+                android:textOff=" "
+                android:textOn=" "
+                android:thumb="@drawable/sw_thumb"
+                android:track="@drawable/sw_track" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_divider_height"
+            android:layout_below="@+id/RLayout_electricity"
+            android:background="@color/all_divider_color"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/RLayout_clear"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_item_height"
+            android:layout_below="@+id/divider2"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/clear_title"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/about_item_text_size" />
+
+            <Switch
+                android:id="@+id/clear_on_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="17dp"
+                android:focusable="false"
+                android:switchMinWidth="20dp"
+                android:textOff=" "
+                android:textOn=" "
+                android:thumb="@drawable/sw_thumb"
+                android:track="@drawable/sw_track" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_divider_height"
+            android:layout_below="@+id/RLayout_clear"
+            android:background="@color/all_divider_color" />
+
+        <RelativeLayout
+            android:id="@+id/RLayout_fall"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_item_height"
+            android:layout_below="@+id/divider3">
+
+            <TextView
+                android:id="@+id/tv_fall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/fall_title"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/about_item_text_size" />
+
+            <Switch
+                android:id="@+id/fall_on_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="17dp"
+                android:focusable="false"
+                android:switchMinWidth="20dp"
+                android:textOff=" "
+                android:textOn=" "
+                android:thumb="@drawable/sw_thumb"
+                android:track="@drawable/sw_track" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_divider_height"
+            android:layout_below="@+id/RLayout_fall"
+            android:background="@color/all_divider_color" />
+
+        <RelativeLayout
+            android:id="@+id/RLayout_location"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_item_height"
+            android:layout_below="@+id/divider4">
+
+            <TextView
+                android:id="@+id/tv_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/location_title"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/about_item_text_size" />
+
+            <Switch
+                android:id="@+id/location_on_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="17dp"
+                android:focusable="false"
+                android:switchMinWidth="20dp"
+                android:textOff=" "
+                android:textOn=" "
+                android:thumb="@drawable/sw_thumb"
+                android:track="@drawable/sw_track" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_divider_height"
+            android:layout_below="@+id/RLayout_location"
+            android:background="@color/all_divider_color" />
+
+        <RelativeLayout
+            android:id="@+id/RLayout_breathing"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_item_height"
+            android:layout_below="@+id/divider5">
+
+            <TextView
+                android:id="@+id/tv_breathing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/breathing_title"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/about_item_text_size" />
+
+            <Switch
+                android:id="@+id/breathing_on_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="17dp"
+                android:focusable="false"
+                android:switchMinWidth="20dp"
+                android:textOff=" "
+                android:textOn=" "
+                android:thumb="@drawable/sw_thumb"
+                android:track="@drawable/sw_track" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_divider_height"
+            android:layout_below="@+id/RLayout_breathing"
+            android:background="@color/all_divider_color"
+			android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/RLayout_awaken"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_item_height"
+            android:layout_below="@+id/divider6"
+			android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_awaken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/awaken_title"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/about_item_text_size" />
+
+            <Switch
+                android:id="@+id/awaken_on_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="17dp"
+                android:focusable="false"
+                android:switchMinWidth="20dp"
+                android:textOff=" "
+                android:textOn=" "
+                android:thumb="@drawable/sw_thumb"
+                android:track="@drawable/sw_track" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_divider_height"
+            android:layout_below="@+id/RLayout_awaken"
+            android:background="@color/all_divider_color"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/RLayout_back_sound"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_item_height"
+            android:layout_below="@+id/divider7"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_back_sound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/back_sound_title"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/about_item_text_size" />
+
+            <Switch
+                android:id="@+id/back_sound_on_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="17dp"
+                android:focusable="false"
+                android:switchMinWidth="20dp"
+                android:textOff=" "
+                android:textOn=" "
+                android:thumb="@drawable/sw_thumb"
+                android:track="@drawable/sw_track" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider8"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_divider_height"
+            android:layout_below="@+id/RLayout_back_sound"
+            android:background="@color/all_divider_color" />
+
+        <RelativeLayout
+            android:id="@+id/RLayout_awaken_model"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_item_height"
+            android:layout_below="@+id/divider8">
+
+            <TextView
+                android:id="@+id/tv_awaken_model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/awaken_model_title"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/about_item_text_size" />
+
+            <RadioGroup
+                android:id="@+id/rg_awaken_model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbt_near"
+                    style="@style/CustomRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:checked="true"
+                    android:paddingLeft="5dp"
+                    android:text="@string/awaken_model_jinchang"
+                    android:textColor="@color/font_black"
+                    android:textSize="@dimen/about_item_text_size" />
+
+                <RadioButton
+                    android:id="@+id/rbt_far"
+                    style="@style/CustomRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="5dp"
+                    android:text="@string/awaken_model_yuanchang"
+                    android:textColor="@color/font_black"
+                    android:textSize="@dimen/about_item_text_size" />
+
+            </RadioGroup>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/divider9"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_divider_height"
+            android:layout_below="@+id/RLayout_awaken_model"
+            android:background="@color/all_divider_color" />
+
+        <RelativeLayout
+            android:id="@+id/RLayout_fac_set"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_item_height"
+            android:layout_below="@+id/divider9"
+            android:background="@drawable/layout_selector">
+
+            <TextView
+                android:id="@+id/tv_fac_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/fac_set_title"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/about_item_text_size" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/item_right_icon" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
