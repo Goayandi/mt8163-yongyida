@@ -14,4 +14,5 @@ BOOT_LOGO = hd720nl
 CUSTOM_LK_LCM = rm68200_dsi_cmd jd9365_dsi_hd
 CUSTOM_UBOOT_LCM = rm68200_dsi_cmd jd9365_dsi_hd
 CUSTOM_KERNEL_LCM = rm68200_dsi_cmd jd9365_dsi_hd
+WAKE_UP_NAME=8163_Y50_YYD_HELLOROBOT_6MICS 
 endfile:ProjectConfig.mk
