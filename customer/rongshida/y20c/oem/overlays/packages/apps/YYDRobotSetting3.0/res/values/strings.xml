@@ -252,6 +252,10 @@
     <string name="person_baby">宝贝</string>
     <string name="person_grandpa">爷爷</string>
     <string name="person_grandma">奶奶</string>
+    <string name="person_grandpa_ex">外公</string>
+    <string name="person_grandma_ex">外婆</string>
+    <string name="person_brother">哥哥</string>
+    <string name="person_sister">姐姐</string>
     <string name="if_modify">是否修改？</string>
     <string name="if_delete">是否删除？</string>
     <string name="if_add">是否添加？</string>
