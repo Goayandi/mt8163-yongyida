@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 本文件含有y20a和y20c的资源，请修改对应部分。y20c的资源定义在本文中间靠后 -->
+<resources>
+    
+    <!-- **************************** y20c_dev 的项目主菜单名称 **************************** -->
+    <!-- y20c主菜单名称 -->
+    <string-array name="menu_item_title_y20c">
+        <item>影视</item>
+        <item>设置</item>
+        <!-- <item>投影</item> -->
+        <!-- <item>通讯录</item> -->
+        <!--<item>电话</item>-->
+        <item>学习</item>
+        <item>文艺馆</item>
+        <item>游戏</item>
+        <item>工具</item>
+        <item>我的应用</item>  	
+		<item>视频通话</item>
+        <item>文档管理</item>
+        <!-- <item>相册</item> -->
+		<item>AR学习</item>
+		<!--<item>文档管理</item>-->
+		<item>家庭健康</item>
+		<item>身体检测</item>
+    </string-array>
+
+</resources>

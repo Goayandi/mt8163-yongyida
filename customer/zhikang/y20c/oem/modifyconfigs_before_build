@@ -1,0 +1,20 @@
+openfile:custom.conf
+dm.Model = ZK20C
+bluetooth.HostName = ZK20C
+fmtransmitter.RDSValue = ZK20C
+wlan.SSID = ZK20C
+endfile:custom.conf
+
+
+openfile:ProjectConfig.mk
+VIDEO_TYPE=yzx_zk
+YYD_5MIC_SUPPORT = yes
+WAKE_UP_NAME=xiaobao
+YYD_FPGA_APK_SUPPROT = no
+LCM_HEIGHT = 720
+LCM_WIDTH = 1280
+BOOT_LOGO = hd720nl
+CUSTOM_LK_LCM = rm68200_dsi_cmd jd9365_dsi_hd
+CUSTOM_UBOOT_LCM = rm68200_dsi_cmd jd9365_dsi_hd
+CUSTOM_KERNEL_LCM = rm68200_dsi_cmd jd9365_dsi_hd
+endfile:ProjectConfig.mk

@@ -3,9 +3,5 @@
 # If propertyies in this file does not exist in /system/build.prop, the 
 # properties will be added into /system/build.prop
 # Property format are key = value 
-ro.product.model=Y50D
-ro.yongyida.voice_locate=1
-ro.yongyida.smart_fall_prevent=1
-ro.yongyida.voice_wakeup_rate=1
-# 荣事达，使用讯飞音乐
-persist.music.usexiri=true
+ro.product.model=QIYAN
+ro.motor.version=8163_50

@@ -1,7 +1,7 @@
 #!/bin/bash
 #modify  versionNumber build/tools/buildinfo.sh
 changeBuildinfo(){	
-	default_version="YOS3.0_Y20CPRO_V1R001"
+	default_version="YOS_Y20CPRO_V1R001"
 	propPath="$TARGET_DEVICE_DIR/system.prop"
 	ProjectConfigPath="$TARGET_DEVICE_DIR/ProjectConfig.mk"
 	read -p "[autobuild.sh]:  Please input new version number (default \"$default_version\"): " VersionNumber
@@ -33,7 +33,7 @@ changeBuildinfo(){
 
 #modify new versionNumber device/.../system.prop
 changeSystemProp(){
-	default_os="YOS3.0.22.001"	
+	default_os="YOS.22.001"	
 	
 	read -p "[autobuild.sh]:  Please input new version number (default \"$default_os\"): " SecVersionNumber
 	echo "[autobuild.sh]:  modify $propPath"

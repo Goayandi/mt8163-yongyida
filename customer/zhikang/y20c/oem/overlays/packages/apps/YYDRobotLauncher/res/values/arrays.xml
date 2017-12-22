@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 本文件含有y20a和y20c、y50bpro的资源，请修改对应部分。y20c的资源定义在本文中间靠后 -->
+<resources>
+    
+    <!-- **************************** y20c_dev的项目 **************************** -->
+    <!-- y20c主菜单名称 -->
+    <string-array name="menu_item_title_y20c">
+        <item>Film</item>
+        <item>Settings</item>
+        <!-- <item>Projector</item> -->
+        <!-- <item>Dialer</item> -->
+        <item>Study</item>
+        <item>Music</item>
+        <item>Game</item>
+        <item>Tools</item>
+        <item>APPs</item>
+        <item>Video Meeting</item>
+        <item>Files</item>
+        <!-- <item>Album</item>  -->
+        <item>AR</item>
+        <!-- <item>Files</item> -->
+		<item>Health Manager</item>
+		<item>Health Detect</item>
+    </string-array>
+    
+    <!-- y20c主菜单图标资源id，与主菜单名称对应 -->
+    <string-array name="menu_item_icon_y20c" translatable="false">
+        <item>@drawable/menu_film</item>
+        <item>@drawable/menu_settings</item>
+        <!-- <item>@drawable/menu_proj</item> -->
+        <!-- <item>@drawable/menu_dialer</item> -->
+        <item>@drawable/menu_study</item>
+        <item>@drawable/menu_music</item>
+        <item>@drawable/menu_game</item>
+        <item>@drawable/menu_tools</item>
+        <item>@drawable/menu_app</item>
+        <item>@drawable/menu_video</item>
+        <item>@drawable/menu_doc</item>
+        <!-- <item>@drawable/menu_photos</item> -->
+        <item>@drawable/menu_ar</item>
+        <!-- <item>@drawable/menu_doc</item> -->
+		<item>@drawable/menu_gl</item>
+		<item>@drawable/menu_jc</item>
+    </string-array>
+
+    <!-- y20c主菜单点击后图标的资源id，与主菜单名称对应 -->
+    <string-array name="menu_item_icon_pressed_y20c" translatable="false">
+        <item>@drawable/menu_film_selected</item>
+        <item>@drawable/menu_settings_selected</item>
+        <!-- <item>@drawable/menu_proj_selected</item> -->
+        <!-- <item>@drawable/menu_dialer_selected</item> -->
+        <item>@drawable/menu_study_selected</item>
+        <item>@drawable/menu_music_selected</item>
+        <item>@drawable/menu_game_selected</item>
+        <item>@drawable/menu_tools_selected</item>
+        <item>@drawable/menu_app_selected</item>
+        <item>@drawable/menu_video_selected</item>
+        <item>@drawable/menu_doc_selected</item>
+        <!-- <item>@drawable/menu_photos_selected</item> -->
+        <item>@drawable/menu_ar_selected</item>
+        <!-- <item>@drawable/menu_doc_selected</item> -->
+		<item>@drawable/menu_gl_selected</item>
+		<item>@drawable/menu_jc_selected</item>
+    </string-array>
+    
+    <!-- y20c主菜单对应的包名，与主菜单名称对应 -->
+    <string-array name="menu_item_package_y20c" translatable="false">
+        <item>"com.yongyida.robot.videotutarial"</item>
+        <item>"com.yongyida.robot.settings"</item>
+        <!-- <item>"com.yongyida.robot.projector"</item> -->
+        <!-- <item>"com.android.dialer"</item> -->
+        <item>"com.yongyida.robot.study"</item>
+        <item>"com.yongyida.robot.artmuseum"</item>
+        <item>"com.yongyida.robot.game"</item>
+		<!-- <item>"mxb.educationnet"</item> -->
+        <item>"com.yongyida.robot.tools"</item>
+        <item>"com.yongyida.robot.apps"</item>
+        <item>"com.yongyida.robot.video"</item>
+        <item>"com.yongyida.robot.resourcemanager"</item>
+        <!-- <item>"com.yongyida.robot.photos"</item> -->
+        <item>"com.fancyar.xiaoyongar"</item>
+        <!-- <item>"com.yongyida.robot"</item> -->
+		<item>"com.yongyida.healthmanage"</item>
+		<item>"com.yongyida.zkdetection"</item>
+    </string-array>
+    
+    <!-- y20c在“工具”中显示的应用的包名 -->
+    <string-array name="tools_package_array_y20c" translatable="false">
+        <item>"com.android.quicksearchbox"</item>
+        <item>"com.android.browser"</item>
+        <item>"com.android.providers.downloads.ui"</item>
+        <item>"com.android.soundrecorder"</item>
+        <!-- <item>"com.android.contacts"</item> -->
+        <!-- <item>"com.android.mms"</item> -->
+        <item>"com.android.calendar"</item>
+        <!-- <item>"com.mediatek.datatransfer"</item> -->
+        <!-- <item>"com.android.gallery3d"</item> -->
+        <item>"com.android.deskclock"</item>
+        <item>"com.mediatek.filemanager"</item>
+        <item>"com.android.calculator2"</item>
+        <item>"com.example.fpga_load"</item>
+        <!-- <item>"com.hpplay.happyplay.aw"</item> -->
+        <!-- <item>"com.yongyida.robot.video"</item> -->
+    </string-array>
+
+</resources>

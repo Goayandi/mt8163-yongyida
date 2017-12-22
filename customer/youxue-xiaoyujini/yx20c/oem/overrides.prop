@@ -1,0 +1,14 @@
+# This file will be parsed by build/tools/customize_props.py.
+# Properties in this file will override properties in /system/build.prop
+# If propertyies in this file does not exist in /system/build.prop, the 
+# properties will be added into /system/build.prop
+# Property format are key = value 
+ro.product.model=YX20C
+ro.yongyida.voice_locate=1
+ro.yongyida.smart_fall_prevent=1
+ro.yongyida.voice_wakeup_rate=1
+persist.yongyida.notification=false
+persist.yongyida.camera=false
+persist.yongyida.photos=false
+#master说话时，呼吸灯不闪
+persist.yongyida.speak_led=false

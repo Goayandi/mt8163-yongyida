@@ -1,0 +1,24 @@
+openfile:custom.conf
+dm.Model = QIYAN
+bluetooth.HostName = QIYAN_BT
+fmtransmitter.RDSValue = QIYAN
+wlan.SSID = QIYAN_AP
+endfile:custom.conf
+
+
+openfile:ProjectConfig.mk
+YYD_BREATHLED_SUPPORT = yes
+CUSTOM_KERNEL_IMGSENSOR = sp2518_yuv gc5025_mipi_raw sp5506_mipi_raw
+CUSTOM_HAL_IMGSENSOR = sp2518_yuv gc5025_mipi_raw sp5506_mipi_raw
+CUSTOM_KERNEL_MAIN_IMGSENSOR = gc5025_mipi_raw sp5506_mipi_raw
+CUSTOM_HAL_MAIN_IMGSENSOR = gc5025_mipi_raw sp5506_mipi_raw
+LCM_HEIGHT = 720
+LCM_WIDTH = 1280
+BOOT_LOGO = hd720nl
+VIDEO_TYPE=yzx_qy
+CUSTOM_LK_LCM = rm68200_dsi_cmd jd9365_dsi_hd
+CUSTOM_UBOOT_LCM = rm68200_dsi_cmd jd9365_dsi_hd
+CUSTOM_KERNEL_LCM = rm68200_dsi_cmd jd9365_dsi_hd
+WAKE_UP_NAME=8163_Y50_PS_ALEXA_6MICS 
+APP_SIGN=presigned
+endfile:ProjectConfig.mk

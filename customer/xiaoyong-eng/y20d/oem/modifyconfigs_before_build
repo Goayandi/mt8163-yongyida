@@ -7,25 +7,17 @@ endfile:custom.conf
 
 
 openfile:ProjectConfig.mk
-
-
-CUSTOM_KERNEL_IMGSENSOR = sp2518_yuv gc5025_mipi_raw sp5506_mipi_raw
-CUSTOM_HAL_IMGSENSOR = sp2518_yuv gc5025_mipi_raw sp5506_mipi_raw
-CUSTOM_KERNEL_MAIN_IMGSENSOR = gc5025_mipi_raw sp5506_mipi_raw
-CUSTOM_HAL_MAIN_IMGSENSOR = gc5025_mipi_raw sp5506_mipi_raw
-
-VIDEO_TYPE=yzx_xiaoyong
+VIDEO_TYPE=yzx_common
 YYD_5MIC_SUPPORT = yes
-MTK_Y20D_CHARGE_LED = yes
-WAKE_UP_NAME=8163_Y20_YYD_HELLOROBOT_5MICS
+MTK_Y20D_DDR_SUPPORT =yes
+WAKE_UP_NAME=hellorobot_5mic_20d
+APP_SIGN=presigned
 YYD_FPGA_APK_SUPPROT = no
 LCM_HEIGHT = 720
 LCM_WIDTH = 1280
 BOOT_LOGO = hd720nl
-MTK_Y20D_DDR_SUPPORT =yes
 CUSTOM_LK_LCM = jd_9365_cpt
 CUSTOM_UBOOT_LCM = jd_9365_cpt
 CUSTOM_KERNEL_LCM = jd_9365_cpt
 CUSTOM_NAME = xiaoyong
 endfile:ProjectConfig.mk
-

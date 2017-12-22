@@ -22,9 +22,9 @@
     <string name="bind_qrcode">请点击应用绑定二维码按钮扫描绑定二维码进行绑定</string>
     <!-- dev  -->
     <string name="remind_dev">请先下载机器人客户端，下载后在添加绑定机器人</string>
-    <string name="scan_dev">1. 下载互动APP</string>
+    <string name="scan_dev">"下载客户端"</string>
     <string name="scan_not_wetchat">(请勿使用微信扫)</string>
-    <string name="bindQrcode_dev">2. 绑定机器人</string>
+    <string name="bindQrcode_dev">绑定机器人</string>
     <string name="open_app">(打开手机APP)</string>
     <string name="binding_user_list_dev">已绑定用户列表</string>
     <string name="off_oline_dev">离线</string>
@@ -33,7 +33,7 @@
     <string name="user_name">用户</string>
     <string name="qr_code_no_user">无绑定用户, 或未联网。\n请确认已经联网和绑定，然后下拉刷新</string>
     <!-- dialog -->
-    <string name="qr_code_dialog_content">是否删除该用户绑定记录？</string>
+    <string name="qr_code_dialog_content">您确定要解除该用户的绑定吗？</string>
     <!-- QrCode end -->
 
     <!-- network -->
@@ -122,7 +122,6 @@
     <string name="brightness_title">屏幕亮度</string>
     <string name="brightness_auto">自动调节亮度</string>
     <string name="rest_title">夜间休息模式</string>
-    <string name="rest_remind">(语音唤醒 视频通话 APP内容推送等功能将暂时关闭)</string>
     <string name="get_up_title">起床时间</string>
     <string name="sleep_title">睡觉时间</string>
     <string name="lock_title">儿童锁</string>
