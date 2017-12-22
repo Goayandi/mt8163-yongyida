@@ -1,5 +1,5 @@
 
-一、客制化编译方式： 111 2
+一、客制化编译方式： 1112
 ========================
 	工程根目录下，在命令行输入如下命令：  . yongyida/common_config.sh "customerpath"                        
 	其中customerpath是客制化配置路径，比如：  . yongyida/common_config.sh yongyida/customer/default/y20c    
