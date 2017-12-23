@@ -13,6 +13,7 @@
 	<item>视频通话</item>
 
         <item>趣拍</item>
+	<item>小学教育</item>
     </string-array>
 	<string-array name="launcher_item_mp3">
         <item>影视</item>
@@ -25,6 +26,7 @@
 	<item>视频通话</item>
 
         <item>趣拍</item>
+	<item>小学教育</item>
     </string-array>
     <!-- 定制化需要替换 -->
     <array name="launcher_robo_start_mp3">
@@ -42,6 +44,7 @@
 	<item>@drawable/vedio_rs20</item>
 
         <item>@drawable/laun_camera</item>
+	 <item>@drawable/laun_xx</item>
     </string-array>
 
 
@@ -57,5 +60,6 @@
 	<item>@string/video_rs20</item>
 
         <item>@string/camera</item>
+	<item>@string/xxtongbu</item>
     </string-array>
 </resources>
