@@ -1,21 +1,4 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @gjwKongKong
- Sign out
- Watch 6
-  Star 0  Fork 0 yos-two/mt8163-yongyida
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-Branch: YOS3.0 Find file Copy pathmt8163-yongyida/customer/xiaoyong/y20c/oem/overlays/packages/apps/YYDRobotLauncher3.0/res/values/arrays.xml
-30d98d9  2 days ago
-@gjwKongKong gjwKongKong 修改视频通话和趣拍的图标弄反了
-3 contributors @gjwKongKong @wudyy @wuchangzhity
-RawBlameHistory     
-Executable File  67 lines (54 sloc)  1.82 KB
+
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
