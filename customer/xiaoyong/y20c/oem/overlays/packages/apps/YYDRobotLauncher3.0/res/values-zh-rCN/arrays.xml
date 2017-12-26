@@ -41,11 +41,10 @@
         <item>@drawable/laun_ar</item>
         <item>@drawable/laun_wisdom_star</item>
         <item>@drawable/laun_music</item>
-	<item>@drawable/vedio_rs20</item>
-	 
+	 <item>@drawable/laun_camera</item>
 	
 
-        <item>@drawable/laun_camera</item>
+        <item>@drawable/vedio_rs20</item>
 	 <item>@drawable/laun_xx</item>
     </string-array>
 
