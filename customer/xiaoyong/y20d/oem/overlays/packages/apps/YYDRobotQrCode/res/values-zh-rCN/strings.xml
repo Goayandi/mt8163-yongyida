@@ -84,7 +84,7 @@
 	<string name="oline_tw">控制</string>	
 	<string name="scan_bound_user">查看已绑定用户</string>
 	<!-- 二维码URL获取  -->
-	<string name="qrcode_url_dev">https://resource.yydrobot.com/app/xiaoyongGeneral/cn/xiaoyongGeneral.html</string>	
+	<string name="qrcode_url_dev">https://resource.yydrobot.com/app/yyd/xiaoyonghudong/cn/xiaoyonghudong.html</string>	
 	<string name="qrcode_url_dev_hk">http://resource.yydrobot.com/app/yyd/hk/app.hk.html</string>	
 	<string name="qrcode_url_dev_st_hk">http://resource.yydrobot.com/app/shantukeji/hk/app.shantukeji.hk.html</string>	
 	<string name="qrcode_url_dev_st">http://resource.yydrobot.com/app/shantukeji/cn/app.shantukeji.html</string>	
