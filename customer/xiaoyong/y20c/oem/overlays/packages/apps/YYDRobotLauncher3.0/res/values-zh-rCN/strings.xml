@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 默认机器人名称：小勇，使用类：NameDBHelper.java, onCreate() -->
+       <string name="default_robot_name">小勇</string>
+     <string name="xxtongbu">com.wyt.xxtongbu</string> <!--小学教育-->
+
+</resources>
