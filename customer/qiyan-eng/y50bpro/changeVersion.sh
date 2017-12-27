@@ -1,7 +1,7 @@
 #!/bin/bash
 #modify  versionNumber build/tools/buildinfo.sh
 changeBuildinfo(){	
-	default_version="QIYAN_Y50E_V1R004_test"
+	default_version="QIYAN_Y50E_V1R005"
 	propPath="$TARGET_DEVICE_DIR/system.prop"
 	ProjectConfigPath="$TARGET_DEVICE_DIR/ProjectConfig.mk"
 	read -p "[autobuild.sh]:  Please input new version number (default \"$default_version\"): " VersionNumber
