@@ -33,7 +33,7 @@ changeBuildinfo(){
 
 #modify new versionNumber device/.../system.prop
 changeSystemProp(){
-	default_os="YOS.22.004"	
+	default_os="YOS.22.005"	
 	
 	read -p "[autobuild.sh]:  Please input new version number (default \"$default_os\"): " SecVersionNumber
 	echo "[autobuild.sh]:  modify $propPath"
