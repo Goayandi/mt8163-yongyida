@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 主界面 -->
+    <string name="act_title_text">设置</string>
+
+    <!-- QrCode -->
+    <string name="display_qrcode">机器人二维码</string>
+    <string name="display_bind_list">查看已绑定用户</string>
+    <string name="vedio">视频播放</string>
+    <string name="back">返回</string>
+    <string name="delete_binding_user">解绑</string>
+    <string name="delete_warning">确定要解除绑定吗？</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="not_bind">没有绑定的用户</string>
+    <string name="str_id">ID:</string>
+    <string name="str_sid">SID:</string>
+    <string name="id_err">机器人id有问题</string>
+    <string name="download_customer">下载客户端</string>
+    <string name="download_qrcode">请打开手机浏览器二维码扫描下载</string>
+    <string name="bind_qrcode">请点击应用绑定二维码按钮扫描绑定二维码进行绑定</string>
+    <!-- dev  -->
+    <string name="remind_dev">请先下载机器人客户端，下载后在添加绑定机器人</string>
+    <string name="scan_dev">1. 下载互动APP</string>
+    <string name="scan_not_wetchat">(请勿使用微信扫)</string>
+    <string name="bindQrcode_dev">2. 绑定机器人</string>
+    <string name="open_app">(打开手机APP)</string>
+    <string name="binding_user_list_dev">已绑定用户列表</string>
+    <string name="off_oline_dev">离线</string>
+    <string name="oline_dev">控制</string>
+    <!-- item -->
+    <string name="user_name">用户</string>
+    <string name="qr_code_no_user">无绑定用户, 或未联网。\n请确认已经联网和绑定，然后下拉刷新</string>
+    <!-- dialog -->
+    <string name="qr_code_dialog_content">是否删除该用户绑定记录？</string>
+    <!-- QrCode end -->
+
+    <!-- network -->
+    <string name="network_sim_title">移动网络</string>
+    <string name="network_wifi_title">WIFI</string>
+    <string name="network_wifi_sel_title">点击选择WIFI</string>
+    <string name="network_current_wifi_text">当前已连接\n%s</string>
+    <string name="network_wifi_opening_text">WIFI开启中.</string>
+    <string name="network_wifi_close_text">WIFI已关闭.</string>
+    <string name="network_no_sim_text">移动网络不可用.</string>
+    <string name="network_select">选取网络</string>
+    <string name="network_refresh">刷新</string>
+    <string name="network_refreshing">正在刷新...</string>
+
+    <!-- about robot -->
+    <string name="about_name">名称</string>
+    <string name="about_type">型号</string>
+    <string name="about_sex_man">男</string>
+    <string name="about_sex_female">女</string>
+    <string name="about_os_version">系统版本</string>
+    <string name="about_serial_num">序列号</string>
+    <string name="about_factory_reset">恢复出厂设置</string>
+    <string name="about_name_hint">请输入名称，12字以内</string>
+    <string name="about_system_update">系统升级</string>
+
+    <string name="change_name_dialog_str_btn_ok">"确定"</string>
+    <string name="change_name_dialog_str_error">"抱歉"</string>
+    <string name="change_name_dialog_str_error_msg">"您的输入不正确."</string>
+
+    <!-- contact us -->
+    <string name="contact_us">"联系我们"</string>
+    <string name="contact_wechat_barcode">"微信二维码"</string>
+    <string name="contact_introduce">"企业介绍"</string>
+
+    <!-- security -->
+    <string name="security_btn_text">"确 定"</string>
+    <string name="security_old_password">"旧密码"</string>
+    <string name="security_new_password">"新密码"</string>
+    <string name="security_new_password_confirm">"再确认新密码"</string>
+    <string name="security_err_old">"旧密码错误"</string>
+    <string name="security_err_new">"新密码两次不一致"</string>
+    <string name="security_success">"密码修改成功"</string>
+    <string name="security_failed">"密码修改失败"</string>
+    <string name="security_clear">"密码已清空"</string>
+    <string name="security_activity_confirm">"进入设置界面需验证密码"</string>
+    <string name="security_activity_confirm_error">"密码错误!"</string>
+    <string name="security_reset">"密码已重置为 123456"</string>
+    <string name="security_setup_success">"密码设置成功"</string>
+
+    <!-- speaker -->
+    <string name="speaker_speed_fast">"快"</string>
+    <string name="speaker_speed_normal">"中"</string>
+    <string name="speaker_speed_slow">"慢"</string>
+    <string name="speaker_tone_high">"高"</string>
+    <string name="speaker_tone_normal">"中"</string>
+    <string name="speaker_tone_low">"低"</string>
+    <string name="speaker_speed">"语速"</string>
+    <string name="speaker_tone">"语调"</string>
+    <string name="speaker_voice_man">"男声"</string>
+    <string name="speaker_voice_female">"女声"</string>
+
+    <!-- facing -->
+    <string name="facing_1">"表情1"</string>
+    <string name="facing_2">"表情2"</string>
+    <string name="facing_3">"表情3"</string>
+
+    <string name="toast_setup_success">"设置成功！"</string>
+
+    <!-- dialog -->
+    <string name="dialog_positive_btn_text">确定</string>
+    <string name="dialog_negative_btn_text">取消</string>
+    <string name="dialog_content_text">确定要恢复出厂设置吗？\n所有配置将会还原到出厂时的状态，\n用户数据将全部清除！</string>
+    <string name="dialog_toast_reboot">机器人即将重启！</string>
+
+    <string name="no_network_connected">无网络连接</string>
+    <string name="wechat_public">微信服务号</string>
+    <string name="wechat_subscribe">官网</string>
+    <string name="customer_phone">客服电话: 400-969-6488</string>
+    <string name="robot_name">小勇商务机器人</string>
+    <string name="robot_type">Yos2.22.002.0128</string>
+    <string name="robot_serial_num">ID:</string>
+    <string name="robot_os_version">Yos2.22.002.0128</string>
+    <string name="robot_flash_space">剩余/存储空间</string>
+    <string name="robot_system_update">检查更新</string>
+    <string name="setting_title">设置</string>
+    <string name="brightness_title">屏幕亮度</string>
+    <string name="brightness_auto">自动调节亮度</string>
+    <string name="rest_title">夜间休息模式</string>
+    <string name="rest_remind">(语音唤醒 视频通话 APP内容推送等功能将暂时关闭)</string>
+    <string name="get_up_title">起床时间</string>
+    <string name="sleep_title">睡觉时间</string>
+    <string name="lock_title">儿童锁</string>
+    <string name="prog_manage_title">启用程序管理</string>
+    <string name="file_manage_title">文件管理</string>
+    <string name="electricity_title">显示电量百分比</string>
+    <string name="clear_title">空间清理</string>
+    <string name="fall_title">智能防跌</string>
+    <string name="location_title">声源定位</string>
+    <string name="awaken_title">唤醒模式</string>
+    <string name="breathing_title">呼吸灯</string>
+    <string name="back_sound_title">背景音</string>
+    <string name="awaken_model_title">唤醒模式</string>
+    <string name="fac_set_title">恢复出厂设置</string>
+    <string name="awaken_model_yuanchang">远场模式</string>
+    <string name="awaken_model_jinchang">近场模式</string>
+
+    <!-- Leds -->
+    <string name="leds_title">呼吸灯</string>
+    <string name="leds_heart">心跳灯</string>
+    <string name="leds_ear">耳朵灯</string>
+    <string name="leds_open_failed">开启失败</string>
+    <string name="leds_close_failed">关闭失败</string>
+</resources>
