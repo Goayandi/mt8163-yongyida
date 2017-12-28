@@ -2,6 +2,6 @@
 <resources>
 
     <!-- 默认机器人名称：小勇，使用类：NameDBHelper.java, onCreate() -->
-       <string name="default_robot_name">小勇</string>
+       <string name="default_robot_name">Xiao yong</string>
 
 </resources>
