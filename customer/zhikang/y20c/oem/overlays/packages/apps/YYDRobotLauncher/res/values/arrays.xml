@@ -81,7 +81,7 @@
         <item>"com.fancyar.xiaoyongar"</item>
         <!-- <item>"com.yongyida.robot"</item> -->
 		<item>"com.yongyida.healthmanage"</item>
-		<item>"com.yongyida.zkdetection"</item>
+		<item>"com.huicheng"</item>
     </string-array>
     
     <!-- y20c在“工具”中显示的应用的包名 -->
