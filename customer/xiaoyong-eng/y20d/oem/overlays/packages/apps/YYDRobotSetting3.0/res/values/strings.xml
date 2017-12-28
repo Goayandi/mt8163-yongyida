@@ -1,83 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">YYDRobotSettings</string>
-    <!-- 腾讯BugLy的appId -->
-    <string name="app_bugly_id" translatable="false">dcd037b7b3</string>
+    
 
-    <!-- DB default -->
-    <string name="db_password" translatable="false">""</string>
-    <string name="db_gendar" translatable="false">1</string>
-    <string name="db_voice_speed" translatable="false">2</string>
-    <string name="db_voice_tone" translatable="false">2</string>
-    <string name="db_voice_speaker" translatable="false">1</string>
-    <string name="db_voice_facing" translatable="false">1</string>
 
-    <!-- 主界面 -->
-    <string name="act_title_text">Settings</string>
 
-    <!-- QrCode -->
-    <string name="display_bind_list">Binding list</string>
-    <string name="display_qrcode">Robot QrCode</string>
-    <string name="cdkeyid" translatable="false">ID:</string>
-    <string name="cdkeysid" translatable="false">SID:</string>
-    <string name="vedio">Video</string>
-    <string name="back">Return</string>
-    <string name="delete_binding_user">Unbind</string>
-    <string name="delete_warning">Are sure you want to unbind your APP？</string>
-    <string name="ok">Yes</string>
-    <string name="cancel">Cancel</string>
-    <string name="not_bind">No found any bind user.</string>
-    <string name="str_id">ID:</string>
-    <string name="str_sid">SID:</string>
-    <string name="id_err">Sorry! Invalid robot ID.</string>
-    <string name="download_qrcode">Please open your phone browser to scan the download qr code.</string>
-    <string name="bind_qrcode">Please use your phone APP to scan the ID code and bind robot.</string>
-    <!-- dev  -->
-    <string name="remind_dev">Please download APP and then use the APP binding robot.</string>
-    <string name="scan_dev">Scan and download APP.</string>
-    <string name="bindQrcode_dev">Robot ID QrCode.</string>
-    <string name="binding_user_list_dev">User list.</string>
-    <string name="off_oline_dev">Offline</string>
-    <string name="oline_dev">Control</string>
-    <!-- st -->
-    <string name="remind_st" translatable="false">请下载app,下载完毕后添加机器人ID绑定机器人哦</string>
-    <string name="scan_st" translatable="false">扫描下载小二管家(请勿使用微信扫描)</string>
-    <string name="bindQrcode_st" translatable="false">绑定二维码</string>
-    <string name="binding_user_list_st" translatable="false">已绑定用户列表</string>
-    <string name="off_oline_st" translatable="false">离线</string>
-    <string name="oline_st" translatable="false">控制</string>
-    <!-- cmcc  -->
-    <string name="remind_cmcc" translatable="false">请下载app,下载完毕后添加机器人ID绑定机器人哦</string>
-    <string name="scan_cmcc" translatable="false">扫描下载客户端(请勿使用微信扫描)</string>
-    <string name="bindQrcode_cmcc" translatable="false">绑定二维码</string>
-    <string name="binding_user_list_cmcc" translatable="false">已绑定用户列表</string>
-    <string name="off_oline_cmcc" translatable="false">离线</string>
-    <string name="oline_cmcc" translatable="false">控制</string>
-    <!-- QrCode tw hk  -->
-    <string name="remind_dev_hk" translatable="false">请下载app,下载完毕后添加机器人ID绑定小勇哦</string>
-    <string name="scan_dev_hk" translatable="false">扫描下载客户端(请勿使用微信扫描)</string>
-    <string name="bindQrcode_dev_hk" translatable="false">绑定二维码</string>
-    <string name="binding_user_list_dev_hk" translatable="false">已绑定用户列表</string>
-    <string name="off_oline_dev_hk" translatable="false">离线</string>
-    <string name="oline_dev_hk" translatable="false">控制</string>
-    <string name="remind_st_hk" translatable="false">请下载app,下载完毕后添加机器人ID绑定机器人哦</string>
-    <string name="scan_st_hk" translatable="false">扫描下载小二管家(请勿使用微信扫描)</string>
-    <string name="bindQrcode_st_hk" translatable="false">绑定二维码</string>
-    <string name="binding_user_list_st_hk" translatable="false">已绑定用户列表</string>
-    <string name="off_oline_st_hk" translatable="false">离线</string>
-    <string name="oline_st_hk" translatable="false">控制</string>
-    <string name="remind_cmcc_hk" translatable="false">请下载app,下载完毕后添加机器人ID绑定机器人哦</string>
-    <string name="scan_cmcc_hk" translatable="false">扫描下载客户端(请勿使用微信扫描)</string>
-    <string name="bindQrcode_cmcc_hk" translatable="false">绑定二维码</string>
-    <string name="binding_user_list_cmcc_hk" translatable="false">已绑定用户列表</string>
-    <string name="off_oline_cmcc_hk" translatable="false">离线</string>
-    <string name="oline_cmcc_hk" translatable="false">控制</string>
-    <string name="remind_tw" translatable="false">請下載app,下載完畢後增加機器人ID設定小勇哦</string>
-    <string name="scan_tw" translatable="false">掃描下載用戶端(請勿使用微信掃描)</string>
-    <string name="bindQrcode_tw" translatable="false">設定二維條碼</string>
-    <string name="binding_user_list_tw" translatable="false">已設定用戶列表</string>
-    <string name="off_oline_tw" translatable="false">離線</string>
-    <string name="oline_tw" translatable="false">控制</string>
+
+
     <!-- item -->
     <string name="user_name">User </string>
     <string name="qr_code_no_user">No binding user.</string>
@@ -93,7 +21,7 @@
     <string name="network_wifi_opening_text">WIFI turn on.</string>
     <string name="network_wifi_close_text">WIFI turn off.</string>
     <string name="network_no_sim_text">No valid sim card.</string>
-    <string name="network_refreshing">正在刷新...</string>
+
 
     <!-- about robot -->
     <string name="about_name">Name</string>
@@ -104,7 +32,7 @@
     <string name="about_factory_reset">Robot reset</string>
     <string name="about_name_hint">Input new robot name. (12 words limit)</string>
     <string name="about_version_default" translatable="false">YOS 2.128.0</string>
-    <string name="about_name_default" translatable="false">小勇</string>
+    <string name="about_name_default" translatable="false">Xiao yong</string>
     <string name="change_name_dialog_str_btn_ok">"OK"</string>
     <string name="change_name_dialog_str_error">"Sorry"</string>
     <string name="change_name_dialog_str_error_msg">"Your input is empty."</string>
@@ -114,8 +42,7 @@
     <string name="contact_wechat_barcode">"WeChat QrCode"</string>
     <string name="contact_introduce">"Company profile"</string>
     <string name="contact_service_phone" translatable="false">18923445672</string>
-    <string name="contact_introduce_text" translatable="false">"        勇艺达科技股份有限公司成立于2013年10月，是一家专业从事精密模具研发、智造与销售的高新技术企业。公司保留原有研发团队核心成员，吸收来自顶级高校及研究机构的专业团队，于2015年9月增加注册了深圳前海勇艺达机器人有限公司，以机器人研发为主，辅以机器人生产、销售。公司将持续秉承“创新、精简、共赢”的理念，不断超越客户的期望。"</string>
-    <string name="contact_introduce_title" translatable="false">"公司简介"</string>
+
 
     <!-- security -->
     <string name="security_btn_text">"OK"</string>
@@ -164,98 +91,25 @@
     <!-- Video-->
     <string name="video_default_time" translatable="false">"00:00/00:00"</string>
 
-    <!--2017/8/8-->
-    <string name="about_type">型号</string>
-    <string name="robot_name">小勇商务机器人</string>
-    <string name="robot_type">Yos2.22.002.0128</string>
-    <string name="robot_serial_num">ID:</string>
-    <string name="robot_os_version">Yos2.22.002.0128</string>
-    <string name="robot_flash_space">剩余/存储空间</string>
-    <string name="robot_system_update">检查更新</string>
-    <string name="setting_title">设置</string>
-    <string name="brightness_title">屏幕亮度</string>
-    <string name="brightness_auto">自动调节亮度</string>
+
     <string name="brightness_min">0</string>
     <string name="brightness_max">10</string>
-    <string name="rest_title">夜间休息模式</string>
-    <string name="get_up_title">起床时间</string>
+
+
     <string name="get_up_text">06:00</string>
-    <string name="sleep_title">睡觉时间</string>
+
     <string name="sleep_text">22:00</string>
-    <string name="lock_title">儿童锁</string>
-    <string name="prog_manage_title">启用程序管理</string>
-    <string name="file_manage_title">文件管理</string>
-    <string name="download_manage_title">下载管理</string>
-    <string name="electricity_title">显示电量百分比</string>
-    <string name="clear_title">空间清理</string>
-    <string name="fall_title">智能防跌</string>
-    <string name="location_title">声源定位</string>
-    <string name="awaken_title">唤醒模式</string>
-    <string name="breathing_title">呼吸灯</string>
-    <string name="back_sound_title">背景音</string>
-    <string name="awaken_model_title">唤醒模式</string>
-    <string name="fac_set_title">恢复出厂设置</string>
-    <string name="awaken_model_yuanchang">远场模式</string>
-    <string name="awaken_model_jinchang">近场模式</string>
-    <string name="about_serial_num">序列号</string>
-    <string name="about_system_update">系统升级</string>
-    <string name="network_select">选取网络</string>
-    <string name="network_refresh">刷新</string>
-    <string name="scan_not_wetchat">(请勿使用微信扫)</string>
-    <string name="open_app">(打开手机APP)</string>
-    <string name="customer_phone">客服电话: 400-969-6488</string>
-    <string name="lock_tip">请确认您是家长</string>
 
-    <!--dialog_edit-->
+
+
+
+
+
     <string name="dialog_edit_title">TP-20</string>
-    <string name="dialog_edit_comfire">确定</string>
-    <string name="dialog_edit_join">加入</string>
 
-    <!--speaker-->
-    <string name="speaker_title">命令类型</string>
-    <string name="speaker_content">命令词</string>
 
-    <string name="num_1">1</string>
-    <string name="num_2">2</string>
-    <string name="num_3">3</string>
-    <string name="num_4">4</string>
-    <string name="num_5">5</string>
-    <string name="num_6">6</string>
-    <string name="num_7">7</string>
-    <string name="num_8">8</string>
-    <string name="num_9">9</string>
-    <string name="num_0">0</string>
-    <string name="multiplication">×</string>
-    <string name="equal">=</string>
-    <string name="prog_manage_title_text">应用程序启用/关闭</string>
-    <string name="clock_sleep">睡觉</string>
-    <string name="clock_get_up">起床</string>
-    <string name="clock_update_success">时间更新成功</string>
-    <string name="dialog_time_up">时间到了！</string>
-    <string name="dialog_btn_stop">停止</string>
-    <string name="dialog_edit_name">修改名称</string>
-    <string name="dialog_fac_set_warn">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;恢复出厂设置需要较长时间，执行此操作会删除本地照片和视频文件，请注意，此操作一旦执行则无法撤销，您确定要执行该操作吗？</string>
-    <string name="dialog_fac_set_cancle">以后再说</string>
-    <string name="dialog_fac_set_confirm">恢复出厂</string>
-    <string name="dialog_input_name">请输入您的昵称</string>
-    <string name="dialog_toast_input_nickname">请输入昵称</string>
-	<string name="dialog_toast_input_name">请输入名称</string>
-    <string name="dialog_toast_nickname_length">名字长度超过限制</string>
-    <string name="name_exist">名字已存在</string>
-    <string name="exceed_limit">超过人数限制</string>
-    <string name="person_dad">爸爸</string>
-    <string name="person_mum">妈妈</string>
-    <string name="person_baby">宝贝</string>
-    <string name="person_grandpa">爷爷</string>
-    <string name="person_grandma">奶奶</string>
-    <string name="person_grandpa_ex">外公</string>
-    <string name="person_grandma_ex">外婆</string>
-    <string name="person_brother">哥哥</string>
-    <string name="person_sister">姐姐</string>
-    <string name="if_modify">是否修改？</string>
-    <string name="if_delete">是否删除？</string>
-    <string name="if_add">是否添加？</string>
-    <string name="please_connect_net">请连接网络</string>
+
+
 
     <!-- Leds -->
     <string name="leds_title">LED Settings</string>
@@ -264,37 +118,13 @@
     <string name="leds_open_failed">Failed to turn on.</string>
     <string name="leds_close_failed">Failed to turn off.</string>
 
-    <!--2017/8/28-->
-    <string name="wifi_connecting">网络正在连接...</string>
-    <string name="delete_wifi_password">确认要清除保存的wifi密码吗？</string>
-    <string name="password_num_less_than_eight">输入的密码字符少于8个!</string>
-    <string name="delete_wifi_password_success">清除密码成功！</string>
-    <string name="network_password_saved">已保存</string>
-    <string name="network_password_connected">已连接</string>
 
-    <string name="download_title_text">下载管理</string>
-    <string name="downloaded_text">已下载</string>
-    <string name="installed_text">已安装</string>
-    <string name="delete_tip_text">确定要删除安装文件吗？</string>
-    <string name="btn_browser">浏览器</string>
-    <string name="et_search_hint">请输入网址</string>
-    <string name="btn_search">搜索</string>
-    <string name="uri_123">hao123</string>
-    <string name="uri_baidu">百度</string>
-    <string name="uri_google">Google</string>
+ 
 
-    <!--dialog_tips-->
-    <string name="fall_close_tip">智能防跌功能关闭，请注意防止机器人跌落！</string>
-    <string name="fall_open_tip">智能防跌功能开启.请勿在深色或浅亮光滑的平面使用该功能！</string>
+	
+ <string name="wechat_public">WeChat service number</string>
+    <string name="wechat_subscribe">Official website</string>
+    <string name="wifi_connecting">The network is connecting...</string>
+    <string name="DEV_URL">https://usrobot.yydrobot.com/usapp/yydrobot/xiaoyonghudongUS.html</string>
 
-    <string name="DEV_URL">https://resource.yydrobot.com/app/yyd/xiaoyonghudong/cn/xiaoyonghudong.html</string>
-
-	<!--dialog_face_edit-->
-    <string name="face_edit">重新录入</string>
-    <string name="face_delete">删除</string>
-
-	<!--2017/9/20-->
-    <string name="about_ip">IP地址</string>
-    <string name="about_ip_unavailable">不可用</string>
-    <string name="about_mac">MAC地址</string>
 </resources>

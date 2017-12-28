@@ -3,16 +3,16 @@
 <resources>
     <!-- 主菜单名称 -->
     <string-array name="launcher_item_title">
-        <item>影视</item>
-        <item>萌宝闹钟</item>
-        <item>相册</item>
+        <item>Videos</item>
+        <item>Alarm</item>
+        <item>Albums</item>
 
-        <item>魔法AR</item>
-        <item>互动游戏</item>
-        <item>音乐</item>
-	<item>视频通话</item>
+        <item>Magic AR</item>
+        <item>Games/item>
+        <item>Music</item>
+	<item>Video Call</item>
 
-        <item>趣拍</item>
+        <item>Camera</item>
     </string-array>
 
     <!-- 主菜单图标资源id，与主菜单名称对应 -->
